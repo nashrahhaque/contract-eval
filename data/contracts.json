@@ -1,0 +1,1444 @@
+[
+  {
+    "id": "NDA-001",
+    "type": "nda",
+    "is_risky": false,
+    "sections": [
+      {
+        "clause_id": "confidentiality",
+        "clause_name": "Confidentiality",
+        "risk": "high",
+        "red_flags": []
+      },
+      {
+        "clause_id": "ip_ownership",
+        "clause_name": "IP Ownership",
+        "risk": "high",
+        "red_flags": []
+      },
+      {
+        "clause_id": "governing_law",
+        "clause_name": "Governing Law",
+        "risk": "low",
+        "red_flags": []
+      },
+      {
+        "clause_id": "non_solicitation",
+        "clause_name": "Non-Solicitation",
+        "risk": "low",
+        "red_flags": []
+      },
+      {
+        "clause_id": "termination",
+        "clause_name": "Termination",
+        "risk": "medium",
+        "red_flags": []
+      }
+    ]
+  },
+  {
+    "id": "SAAS-002",
+    "type": "saas",
+    "is_risky": false,
+    "sections": [
+      {
+        "clause_id": "limitation_of_liability",
+        "clause_name": "Limitation of Liability",
+        "risk": "high",
+        "red_flags": []
+      },
+      {
+        "clause_id": "indemnification",
+        "clause_name": "Indemnification",
+        "risk": "high",
+        "red_flags": []
+      },
+      {
+        "clause_id": "ip_ownership",
+        "clause_name": "IP Ownership",
+        "risk": "high",
+        "red_flags": []
+      },
+      {
+        "clause_id": "data_privacy",
+        "clause_name": "Data Privacy & Security",
+        "risk": "high",
+        "red_flags": []
+      },
+      {
+        "clause_id": "confidentiality",
+        "clause_name": "Confidentiality",
+        "risk": "high",
+        "red_flags": []
+      },
+      {
+        "clause_id": "auto_renewal",
+        "clause_name": "Auto-Renewal",
+        "risk": "medium",
+        "red_flags": []
+      },
+      {
+        "clause_id": "termination",
+        "clause_name": "Termination",
+        "risk": "medium",
+        "red_flags": []
+      },
+      {
+        "clause_id": "dispute_resolution",
+        "clause_name": "Dispute Resolution",
+        "risk": "medium",
+        "red_flags": []
+      },
+      {
+        "clause_id": "price_change",
+        "clause_name": "Price Change",
+        "risk": "medium",
+        "red_flags": []
+      },
+      {
+        "clause_id": "assignment",
+        "clause_name": "Assignment",
+        "risk": "medium",
+        "red_flags": []
+      },
+      {
+        "clause_id": "governing_law",
+        "clause_name": "Governing Law",
+        "risk": "low",
+        "red_flags": []
+      },
+      {
+        "clause_id": "payment_terms",
+        "clause_name": "Payment Terms",
+        "risk": "low",
+        "red_flags": []
+      },
+      {
+        "clause_id": "audit_rights",
+        "clause_name": "Audit Rights",
+        "risk": "low",
+        "red_flags": []
+      },
+      {
+        "clause_id": "non_solicitation",
+        "clause_name": "Non-Solicitation",
+        "risk": "low",
+        "red_flags": []
+      }
+    ]
+  },
+  {
+    "id": "MSA-003",
+    "type": "msa",
+    "is_risky": false,
+    "sections": [
+      {
+        "clause_id": "limitation_of_liability",
+        "clause_name": "Limitation of Liability",
+        "risk": "high",
+        "red_flags": []
+      },
+      {
+        "clause_id": "indemnification",
+        "clause_name": "Indemnification",
+        "risk": "high",
+        "red_flags": []
+      },
+      {
+        "clause_id": "confidentiality",
+        "clause_name": "Confidentiality",
+        "risk": "high",
+        "red_flags": []
+      },
+      {
+        "clause_id": "ip_ownership",
+        "clause_name": "IP Ownership",
+        "risk": "high",
+        "red_flags": []
+      },
+      {
+        "clause_id": "termination",
+        "clause_name": "Termination",
+        "risk": "medium",
+        "red_flags": []
+      },
+      {
+        "clause_id": "governing_law",
+        "clause_name": "Governing Law",
+        "risk": "low",
+        "red_flags": []
+      },
+      {
+        "clause_id": "dispute_resolution",
+        "clause_name": "Dispute Resolution",
+        "risk": "medium",
+        "red_flags": []
+      },
+      {
+        "clause_id": "payment_terms",
+        "clause_name": "Payment Terms",
+        "risk": "low",
+        "red_flags": []
+      },
+      {
+        "clause_id": "data_privacy",
+        "clause_name": "Data Privacy & Security",
+        "risk": "high",
+        "red_flags": []
+      },
+      {
+        "clause_id": "audit_rights",
+        "clause_name": "Audit Rights",
+        "risk": "low",
+        "red_flags": []
+      },
+      {
+        "clause_id": "assignment",
+        "clause_name": "Assignment",
+        "risk": "medium",
+        "red_flags": []
+      }
+    ]
+  },
+  {
+    "id": "NDA-004",
+    "type": "nda",
+    "is_risky": false,
+    "sections": [
+      {
+        "clause_id": "confidentiality",
+        "clause_name": "Confidentiality",
+        "risk": "high",
+        "red_flags": []
+      },
+      {
+        "clause_id": "ip_ownership",
+        "clause_name": "IP Ownership",
+        "risk": "high",
+        "red_flags": []
+      },
+      {
+        "clause_id": "governing_law",
+        "clause_name": "Governing Law",
+        "risk": "low",
+        "red_flags": []
+      },
+      {
+        "clause_id": "non_solicitation",
+        "clause_name": "Non-Solicitation",
+        "risk": "low",
+        "red_flags": []
+      },
+      {
+        "clause_id": "termination",
+        "clause_name": "Termination",
+        "risk": "medium",
+        "red_flags": []
+      }
+    ]
+  },
+  {
+    "id": "SAAS-005",
+    "type": "saas",
+    "is_risky": false,
+    "sections": [
+      {
+        "clause_id": "limitation_of_liability",
+        "clause_name": "Limitation of Liability",
+        "risk": "high",
+        "red_flags": []
+      },
+      {
+        "clause_id": "indemnification",
+        "clause_name": "Indemnification",
+        "risk": "high",
+        "red_flags": []
+      },
+      {
+        "clause_id": "ip_ownership",
+        "clause_name": "IP Ownership",
+        "risk": "high",
+        "red_flags": []
+      },
+      {
+        "clause_id": "data_privacy",
+        "clause_name": "Data Privacy & Security",
+        "risk": "high",
+        "red_flags": []
+      },
+      {
+        "clause_id": "confidentiality",
+        "clause_name": "Confidentiality",
+        "risk": "high",
+        "red_flags": []
+      },
+      {
+        "clause_id": "auto_renewal",
+        "clause_name": "Auto-Renewal",
+        "risk": "medium",
+        "red_flags": []
+      },
+      {
+        "clause_id": "termination",
+        "clause_name": "Termination",
+        "risk": "medium",
+        "red_flags": []
+      },
+      {
+        "clause_id": "dispute_resolution",
+        "clause_name": "Dispute Resolution",
+        "risk": "medium",
+        "red_flags": []
+      },
+      {
+        "clause_id": "price_change",
+        "clause_name": "Price Change",
+        "risk": "medium",
+        "red_flags": []
+      },
+      {
+        "clause_id": "assignment",
+        "clause_name": "Assignment",
+        "risk": "medium",
+        "red_flags": []
+      },
+      {
+        "clause_id": "governing_law",
+        "clause_name": "Governing Law",
+        "risk": "low",
+        "red_flags": []
+      },
+      {
+        "clause_id": "payment_terms",
+        "clause_name": "Payment Terms",
+        "risk": "low",
+        "red_flags": []
+      },
+      {
+        "clause_id": "audit_rights",
+        "clause_name": "Audit Rights",
+        "risk": "low",
+        "red_flags": []
+      },
+      {
+        "clause_id": "non_solicitation",
+        "clause_name": "Non-Solicitation",
+        "risk": "low",
+        "red_flags": []
+      }
+    ]
+  },
+  {
+    "id": "MSA-006",
+    "type": "msa",
+    "is_risky": false,
+    "sections": [
+      {
+        "clause_id": "limitation_of_liability",
+        "clause_name": "Limitation of Liability",
+        "risk": "high",
+        "red_flags": []
+      },
+      {
+        "clause_id": "indemnification",
+        "clause_name": "Indemnification",
+        "risk": "high",
+        "red_flags": []
+      },
+      {
+        "clause_id": "confidentiality",
+        "clause_name": "Confidentiality",
+        "risk": "high",
+        "red_flags": []
+      },
+      {
+        "clause_id": "ip_ownership",
+        "clause_name": "IP Ownership",
+        "risk": "high",
+        "red_flags": []
+      },
+      {
+        "clause_id": "termination",
+        "clause_name": "Termination",
+        "risk": "medium",
+        "red_flags": []
+      },
+      {
+        "clause_id": "governing_law",
+        "clause_name": "Governing Law",
+        "risk": "low",
+        "red_flags": []
+      },
+      {
+        "clause_id": "dispute_resolution",
+        "clause_name": "Dispute Resolution",
+        "risk": "medium",
+        "red_flags": []
+      },
+      {
+        "clause_id": "payment_terms",
+        "clause_name": "Payment Terms",
+        "risk": "low",
+        "red_flags": []
+      },
+      {
+        "clause_id": "data_privacy",
+        "clause_name": "Data Privacy & Security",
+        "risk": "high",
+        "red_flags": []
+      },
+      {
+        "clause_id": "audit_rights",
+        "clause_name": "Audit Rights",
+        "risk": "low",
+        "red_flags": []
+      },
+      {
+        "clause_id": "assignment",
+        "clause_name": "Assignment",
+        "risk": "medium",
+        "red_flags": []
+      }
+    ]
+  },
+  {
+    "id": "NDA-007",
+    "type": "nda",
+    "is_risky": false,
+    "sections": [
+      {
+        "clause_id": "confidentiality",
+        "clause_name": "Confidentiality",
+        "risk": "high",
+        "red_flags": []
+      },
+      {
+        "clause_id": "ip_ownership",
+        "clause_name": "IP Ownership",
+        "risk": "high",
+        "red_flags": []
+      },
+      {
+        "clause_id": "governing_law",
+        "clause_name": "Governing Law",
+        "risk": "low",
+        "red_flags": []
+      },
+      {
+        "clause_id": "non_solicitation",
+        "clause_name": "Non-Solicitation",
+        "risk": "low",
+        "red_flags": []
+      },
+      {
+        "clause_id": "termination",
+        "clause_name": "Termination",
+        "risk": "medium",
+        "red_flags": []
+      }
+    ]
+  },
+  {
+    "id": "SAAS-008",
+    "type": "saas",
+    "is_risky": false,
+    "sections": [
+      {
+        "clause_id": "limitation_of_liability",
+        "clause_name": "Limitation of Liability",
+        "risk": "high",
+        "red_flags": []
+      },
+      {
+        "clause_id": "indemnification",
+        "clause_name": "Indemnification",
+        "risk": "high",
+        "red_flags": []
+      },
+      {
+        "clause_id": "ip_ownership",
+        "clause_name": "IP Ownership",
+        "risk": "high",
+        "red_flags": []
+      },
+      {
+        "clause_id": "data_privacy",
+        "clause_name": "Data Privacy & Security",
+        "risk": "high",
+        "red_flags": []
+      },
+      {
+        "clause_id": "confidentiality",
+        "clause_name": "Confidentiality",
+        "risk": "high",
+        "red_flags": []
+      },
+      {
+        "clause_id": "auto_renewal",
+        "clause_name": "Auto-Renewal",
+        "risk": "medium",
+        "red_flags": []
+      },
+      {
+        "clause_id": "termination",
+        "clause_name": "Termination",
+        "risk": "medium",
+        "red_flags": []
+      },
+      {
+        "clause_id": "dispute_resolution",
+        "clause_name": "Dispute Resolution",
+        "risk": "medium",
+        "red_flags": []
+      },
+      {
+        "clause_id": "price_change",
+        "clause_name": "Price Change",
+        "risk": "medium",
+        "red_flags": []
+      },
+      {
+        "clause_id": "assignment",
+        "clause_name": "Assignment",
+        "risk": "medium",
+        "red_flags": []
+      },
+      {
+        "clause_id": "governing_law",
+        "clause_name": "Governing Law",
+        "risk": "low",
+        "red_flags": []
+      },
+      {
+        "clause_id": "payment_terms",
+        "clause_name": "Payment Terms",
+        "risk": "low",
+        "red_flags": []
+      },
+      {
+        "clause_id": "audit_rights",
+        "clause_name": "Audit Rights",
+        "risk": "low",
+        "red_flags": []
+      },
+      {
+        "clause_id": "non_solicitation",
+        "clause_name": "Non-Solicitation",
+        "risk": "low",
+        "red_flags": []
+      }
+    ]
+  },
+  {
+    "id": "MSA-009",
+    "type": "msa",
+    "is_risky": false,
+    "sections": [
+      {
+        "clause_id": "limitation_of_liability",
+        "clause_name": "Limitation of Liability",
+        "risk": "high",
+        "red_flags": []
+      },
+      {
+        "clause_id": "indemnification",
+        "clause_name": "Indemnification",
+        "risk": "high",
+        "red_flags": []
+      },
+      {
+        "clause_id": "confidentiality",
+        "clause_name": "Confidentiality",
+        "risk": "high",
+        "red_flags": []
+      },
+      {
+        "clause_id": "ip_ownership",
+        "clause_name": "IP Ownership",
+        "risk": "high",
+        "red_flags": []
+      },
+      {
+        "clause_id": "termination",
+        "clause_name": "Termination",
+        "risk": "medium",
+        "red_flags": []
+      },
+      {
+        "clause_id": "governing_law",
+        "clause_name": "Governing Law",
+        "risk": "low",
+        "red_flags": []
+      },
+      {
+        "clause_id": "dispute_resolution",
+        "clause_name": "Dispute Resolution",
+        "risk": "medium",
+        "red_flags": []
+      },
+      {
+        "clause_id": "payment_terms",
+        "clause_name": "Payment Terms",
+        "risk": "low",
+        "red_flags": []
+      },
+      {
+        "clause_id": "data_privacy",
+        "clause_name": "Data Privacy & Security",
+        "risk": "high",
+        "red_flags": []
+      },
+      {
+        "clause_id": "audit_rights",
+        "clause_name": "Audit Rights",
+        "risk": "low",
+        "red_flags": []
+      },
+      {
+        "clause_id": "assignment",
+        "clause_name": "Assignment",
+        "risk": "medium",
+        "red_flags": []
+      }
+    ]
+  },
+  {
+    "id": "NDA-010",
+    "type": "nda",
+    "is_risky": false,
+    "sections": [
+      {
+        "clause_id": "confidentiality",
+        "clause_name": "Confidentiality",
+        "risk": "high",
+        "red_flags": []
+      },
+      {
+        "clause_id": "ip_ownership",
+        "clause_name": "IP Ownership",
+        "risk": "high",
+        "red_flags": []
+      },
+      {
+        "clause_id": "governing_law",
+        "clause_name": "Governing Law",
+        "risk": "low",
+        "red_flags": []
+      },
+      {
+        "clause_id": "non_solicitation",
+        "clause_name": "Non-Solicitation",
+        "risk": "low",
+        "red_flags": []
+      },
+      {
+        "clause_id": "termination",
+        "clause_name": "Termination",
+        "risk": "medium",
+        "red_flags": []
+      }
+    ]
+  },
+  {
+    "id": "SAAS-011",
+    "type": "saas",
+    "is_risky": true,
+    "sections": [
+      {
+        "clause_id": "limitation_of_liability",
+        "clause_name": "Limitation of Liability",
+        "risk": "high",
+        "red_flags": []
+      },
+      {
+        "clause_id": "indemnification",
+        "clause_name": "Indemnification",
+        "risk": "high",
+        "red_flags": [
+          "uncapped indemnification"
+        ]
+      },
+      {
+        "clause_id": "ip_ownership",
+        "clause_name": "IP Ownership",
+        "risk": "high",
+        "red_flags": [
+          "vendor retains deliverables"
+        ]
+      },
+      {
+        "clause_id": "data_privacy",
+        "clause_name": "Data Privacy & Security",
+        "risk": "high",
+        "red_flags": []
+      },
+      {
+        "clause_id": "confidentiality",
+        "clause_name": "Confidentiality",
+        "risk": "high",
+        "red_flags": []
+      },
+      {
+        "clause_id": "auto_renewal",
+        "clause_name": "Auto-Renewal",
+        "risk": "medium",
+        "red_flags": []
+      },
+      {
+        "clause_id": "termination",
+        "clause_name": "Termination",
+        "risk": "medium",
+        "red_flags": [
+          "cure period under 15 days"
+        ]
+      },
+      {
+        "clause_id": "dispute_resolution",
+        "clause_name": "Dispute Resolution",
+        "risk": "medium",
+        "red_flags": [
+          "mandatory arbitration"
+        ]
+      },
+      {
+        "clause_id": "price_change",
+        "clause_name": "Price Change",
+        "risk": "medium",
+        "red_flags": [
+          "uncapped price increase"
+        ]
+      },
+      {
+        "clause_id": "assignment",
+        "clause_name": "Assignment",
+        "risk": "medium",
+        "red_flags": []
+      },
+      {
+        "clause_id": "governing_law",
+        "clause_name": "Governing Law",
+        "risk": "low",
+        "red_flags": []
+      },
+      {
+        "clause_id": "payment_terms",
+        "clause_name": "Payment Terms",
+        "risk": "low",
+        "red_flags": []
+      },
+      {
+        "clause_id": "audit_rights",
+        "clause_name": "Audit Rights",
+        "risk": "low",
+        "red_flags": [
+          "no audit rights"
+        ]
+      },
+      {
+        "clause_id": "non_solicitation",
+        "clause_name": "Non-Solicitation",
+        "risk": "low",
+        "red_flags": []
+      }
+    ]
+  },
+  {
+    "id": "MSA-012",
+    "type": "msa",
+    "is_risky": true,
+    "sections": [
+      {
+        "clause_id": "limitation_of_liability",
+        "clause_name": "Limitation of Liability",
+        "risk": "high",
+        "red_flags": []
+      },
+      {
+        "clause_id": "indemnification",
+        "clause_name": "Indemnification",
+        "risk": "high",
+        "red_flags": [
+          "unilateral indemnification"
+        ]
+      },
+      {
+        "clause_id": "confidentiality",
+        "clause_name": "Confidentiality",
+        "risk": "high",
+        "red_flags": []
+      },
+      {
+        "clause_id": "ip_ownership",
+        "clause_name": "IP Ownership",
+        "risk": "high",
+        "red_flags": [
+          "vendor retains deliverables"
+        ]
+      },
+      {
+        "clause_id": "termination",
+        "clause_name": "Termination",
+        "risk": "medium",
+        "red_flags": [
+          "cure period under 15 days"
+        ]
+      },
+      {
+        "clause_id": "governing_law",
+        "clause_name": "Governing Law",
+        "risk": "low",
+        "red_flags": [
+          "foreign jurisdiction"
+        ]
+      },
+      {
+        "clause_id": "dispute_resolution",
+        "clause_name": "Dispute Resolution",
+        "risk": "medium",
+        "red_flags": [
+          "class action waiver"
+        ]
+      },
+      {
+        "clause_id": "payment_terms",
+        "clause_name": "Payment Terms",
+        "risk": "low",
+        "red_flags": []
+      },
+      {
+        "clause_id": "data_privacy",
+        "clause_name": "Data Privacy & Security",
+        "risk": "high",
+        "red_flags": []
+      },
+      {
+        "clause_id": "audit_rights",
+        "clause_name": "Audit Rights",
+        "risk": "low",
+        "red_flags": []
+      },
+      {
+        "clause_id": "assignment",
+        "clause_name": "Assignment",
+        "risk": "medium",
+        "red_flags": [
+          "no change-of-control protection"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "NDA-013",
+    "type": "nda",
+    "is_risky": true,
+    "sections": [
+      {
+        "clause_id": "confidentiality",
+        "clause_name": "Confidentiality",
+        "risk": "high",
+        "red_flags": [
+          "residuals clause"
+        ]
+      },
+      {
+        "clause_id": "ip_ownership",
+        "clause_name": "IP Ownership",
+        "risk": "high",
+        "red_flags": []
+      },
+      {
+        "clause_id": "governing_law",
+        "clause_name": "Governing Law",
+        "risk": "low",
+        "red_flags": []
+      },
+      {
+        "clause_id": "non_solicitation",
+        "clause_name": "Non-Solicitation",
+        "risk": "low",
+        "red_flags": []
+      },
+      {
+        "clause_id": "termination",
+        "clause_name": "Termination",
+        "risk": "medium",
+        "red_flags": []
+      }
+    ]
+  },
+  {
+    "id": "SAAS-014",
+    "type": "saas",
+    "is_risky": true,
+    "sections": [
+      {
+        "clause_id": "limitation_of_liability",
+        "clause_name": "Limitation of Liability",
+        "risk": "high",
+        "red_flags": []
+      },
+      {
+        "clause_id": "indemnification",
+        "clause_name": "Indemnification",
+        "risk": "high",
+        "red_flags": [
+          "unilateral indemnification"
+        ]
+      },
+      {
+        "clause_id": "ip_ownership",
+        "clause_name": "IP Ownership",
+        "risk": "high",
+        "red_flags": []
+      },
+      {
+        "clause_id": "data_privacy",
+        "clause_name": "Data Privacy & Security",
+        "risk": "high",
+        "red_flags": []
+      },
+      {
+        "clause_id": "confidentiality",
+        "clause_name": "Confidentiality",
+        "risk": "high",
+        "red_flags": []
+      },
+      {
+        "clause_id": "auto_renewal",
+        "clause_name": "Auto-Renewal",
+        "risk": "medium",
+        "red_flags": []
+      },
+      {
+        "clause_id": "termination",
+        "clause_name": "Termination",
+        "risk": "medium",
+        "red_flags": [
+          "cure period under 15 days"
+        ]
+      },
+      {
+        "clause_id": "dispute_resolution",
+        "clause_name": "Dispute Resolution",
+        "risk": "medium",
+        "red_flags": []
+      },
+      {
+        "clause_id": "price_change",
+        "clause_name": "Price Change",
+        "risk": "medium",
+        "red_flags": [
+          "less than 30 days notice"
+        ]
+      },
+      {
+        "clause_id": "assignment",
+        "clause_name": "Assignment",
+        "risk": "medium",
+        "red_flags": [
+          "no change-of-control protection"
+        ]
+      },
+      {
+        "clause_id": "governing_law",
+        "clause_name": "Governing Law",
+        "risk": "low",
+        "red_flags": []
+      },
+      {
+        "clause_id": "payment_terms",
+        "clause_name": "Payment Terms",
+        "risk": "low",
+        "red_flags": []
+      },
+      {
+        "clause_id": "audit_rights",
+        "clause_name": "Audit Rights",
+        "risk": "low",
+        "red_flags": [
+          "no audit rights"
+        ]
+      },
+      {
+        "clause_id": "non_solicitation",
+        "clause_name": "Non-Solicitation",
+        "risk": "low",
+        "red_flags": [
+          "duration over 12 months"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "MSA-015",
+    "type": "msa",
+    "is_risky": true,
+    "sections": [
+      {
+        "clause_id": "limitation_of_liability",
+        "clause_name": "Limitation of Liability",
+        "risk": "high",
+        "red_flags": [
+          "no carve-out for gross negligence"
+        ]
+      },
+      {
+        "clause_id": "indemnification",
+        "clause_name": "Indemnification",
+        "risk": "high",
+        "red_flags": [
+          "unilateral indemnification"
+        ]
+      },
+      {
+        "clause_id": "confidentiality",
+        "clause_name": "Confidentiality",
+        "risk": "high",
+        "red_flags": []
+      },
+      {
+        "clause_id": "ip_ownership",
+        "clause_name": "IP Ownership",
+        "risk": "high",
+        "red_flags": []
+      },
+      {
+        "clause_id": "termination",
+        "clause_name": "Termination",
+        "risk": "medium",
+        "red_flags": []
+      },
+      {
+        "clause_id": "governing_law",
+        "clause_name": "Governing Law",
+        "risk": "low",
+        "red_flags": [
+          "foreign jurisdiction"
+        ]
+      },
+      {
+        "clause_id": "dispute_resolution",
+        "clause_name": "Dispute Resolution",
+        "risk": "medium",
+        "red_flags": []
+      },
+      {
+        "clause_id": "payment_terms",
+        "clause_name": "Payment Terms",
+        "risk": "low",
+        "red_flags": [
+          "suspension for disputed invoices"
+        ]
+      },
+      {
+        "clause_id": "data_privacy",
+        "clause_name": "Data Privacy & Security",
+        "risk": "high",
+        "red_flags": [
+          "breach notification over 72 hours"
+        ]
+      },
+      {
+        "clause_id": "audit_rights",
+        "clause_name": "Audit Rights",
+        "risk": "low",
+        "red_flags": [
+          "no audit rights"
+        ]
+      },
+      {
+        "clause_id": "assignment",
+        "clause_name": "Assignment",
+        "risk": "medium",
+        "red_flags": [
+          "no change-of-control protection"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "NDA-016",
+    "type": "nda",
+    "is_risky": true,
+    "sections": [
+      {
+        "clause_id": "confidentiality",
+        "clause_name": "Confidentiality",
+        "risk": "high",
+        "red_flags": [
+          "no time limit"
+        ]
+      },
+      {
+        "clause_id": "ip_ownership",
+        "clause_name": "IP Ownership",
+        "risk": "high",
+        "red_flags": [
+          "AI model trained on client data"
+        ]
+      },
+      {
+        "clause_id": "governing_law",
+        "clause_name": "Governing Law",
+        "risk": "low",
+        "red_flags": []
+      },
+      {
+        "clause_id": "non_solicitation",
+        "clause_name": "Non-Solicitation",
+        "risk": "low",
+        "red_flags": [
+          "duration over 12 months"
+        ]
+      },
+      {
+        "clause_id": "termination",
+        "clause_name": "Termination",
+        "risk": "medium",
+        "red_flags": [
+          "termination fee"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "SAAS-017",
+    "type": "saas",
+    "is_risky": true,
+    "sections": [
+      {
+        "clause_id": "limitation_of_liability",
+        "clause_name": "Limitation of Liability",
+        "risk": "high",
+        "red_flags": [
+          "cap below 12 months fees"
+        ]
+      },
+      {
+        "clause_id": "indemnification",
+        "clause_name": "Indemnification",
+        "risk": "high",
+        "red_flags": []
+      },
+      {
+        "clause_id": "ip_ownership",
+        "clause_name": "IP Ownership",
+        "risk": "high",
+        "red_flags": []
+      },
+      {
+        "clause_id": "data_privacy",
+        "clause_name": "Data Privacy & Security",
+        "risk": "high",
+        "red_flags": [
+          "no DPA"
+        ]
+      },
+      {
+        "clause_id": "confidentiality",
+        "clause_name": "Confidentiality",
+        "risk": "high",
+        "red_flags": []
+      },
+      {
+        "clause_id": "auto_renewal",
+        "clause_name": "Auto-Renewal",
+        "risk": "medium",
+        "red_flags": [
+          "short cancellation window"
+        ]
+      },
+      {
+        "clause_id": "termination",
+        "clause_name": "Termination",
+        "risk": "medium",
+        "red_flags": [
+          "cure period under 15 days"
+        ]
+      },
+      {
+        "clause_id": "dispute_resolution",
+        "clause_name": "Dispute Resolution",
+        "risk": "medium",
+        "red_flags": [
+          "mandatory arbitration"
+        ]
+      },
+      {
+        "clause_id": "price_change",
+        "clause_name": "Price Change",
+        "risk": "medium",
+        "red_flags": []
+      },
+      {
+        "clause_id": "assignment",
+        "clause_name": "Assignment",
+        "risk": "medium",
+        "red_flags": [
+          "no change-of-control protection"
+        ]
+      },
+      {
+        "clause_id": "governing_law",
+        "clause_name": "Governing Law",
+        "risk": "low",
+        "red_flags": []
+      },
+      {
+        "clause_id": "payment_terms",
+        "clause_name": "Payment Terms",
+        "risk": "low",
+        "red_flags": [
+          "suspension for disputed invoices"
+        ]
+      },
+      {
+        "clause_id": "audit_rights",
+        "clause_name": "Audit Rights",
+        "risk": "low",
+        "red_flags": [
+          "no audit rights"
+        ]
+      },
+      {
+        "clause_id": "non_solicitation",
+        "clause_name": "Non-Solicitation",
+        "risk": "low",
+        "red_flags": [
+          "duration over 12 months"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "MSA-018",
+    "type": "msa",
+    "is_risky": true,
+    "sections": [
+      {
+        "clause_id": "limitation_of_liability",
+        "clause_name": "Limitation of Liability",
+        "risk": "high",
+        "red_flags": []
+      },
+      {
+        "clause_id": "indemnification",
+        "clause_name": "Indemnification",
+        "risk": "high",
+        "red_flags": []
+      },
+      {
+        "clause_id": "confidentiality",
+        "clause_name": "Confidentiality",
+        "risk": "high",
+        "red_flags": [
+          "no time limit"
+        ]
+      },
+      {
+        "clause_id": "ip_ownership",
+        "clause_name": "IP Ownership",
+        "risk": "high",
+        "red_flags": []
+      },
+      {
+        "clause_id": "termination",
+        "clause_name": "Termination",
+        "risk": "medium",
+        "red_flags": [
+          "termination fee"
+        ]
+      },
+      {
+        "clause_id": "governing_law",
+        "clause_name": "Governing Law",
+        "risk": "low",
+        "red_flags": [
+          "foreign jurisdiction"
+        ]
+      },
+      {
+        "clause_id": "dispute_resolution",
+        "clause_name": "Dispute Resolution",
+        "risk": "medium",
+        "red_flags": [
+          "mandatory arbitration"
+        ]
+      },
+      {
+        "clause_id": "payment_terms",
+        "clause_name": "Payment Terms",
+        "risk": "low",
+        "red_flags": []
+      },
+      {
+        "clause_id": "data_privacy",
+        "clause_name": "Data Privacy & Security",
+        "risk": "high",
+        "red_flags": [
+          "no DPA"
+        ]
+      },
+      {
+        "clause_id": "audit_rights",
+        "clause_name": "Audit Rights",
+        "risk": "low",
+        "red_flags": []
+      },
+      {
+        "clause_id": "assignment",
+        "clause_name": "Assignment",
+        "risk": "medium",
+        "red_flags": []
+      }
+    ]
+  },
+  {
+    "id": "NDA-019",
+    "type": "nda",
+    "is_risky": true,
+    "sections": [
+      {
+        "clause_id": "confidentiality",
+        "clause_name": "Confidentiality",
+        "risk": "high",
+        "red_flags": []
+      },
+      {
+        "clause_id": "ip_ownership",
+        "clause_name": "IP Ownership",
+        "risk": "high",
+        "red_flags": [
+          "vendor retains deliverables"
+        ]
+      },
+      {
+        "clause_id": "governing_law",
+        "clause_name": "Governing Law",
+        "risk": "low",
+        "red_flags": [
+          "foreign jurisdiction"
+        ]
+      },
+      {
+        "clause_id": "non_solicitation",
+        "clause_name": "Non-Solicitation",
+        "risk": "low",
+        "red_flags": [
+          "duration over 12 months"
+        ]
+      },
+      {
+        "clause_id": "termination",
+        "clause_name": "Termination",
+        "risk": "medium",
+        "red_flags": []
+      }
+    ]
+  },
+  {
+    "id": "SAAS-020",
+    "type": "saas",
+    "is_risky": true,
+    "sections": [
+      {
+        "clause_id": "limitation_of_liability",
+        "clause_name": "Limitation of Liability",
+        "risk": "high",
+        "red_flags": []
+      },
+      {
+        "clause_id": "indemnification",
+        "clause_name": "Indemnification",
+        "risk": "high",
+        "red_flags": [
+          "unilateral indemnification"
+        ]
+      },
+      {
+        "clause_id": "ip_ownership",
+        "clause_name": "IP Ownership",
+        "risk": "high",
+        "red_flags": [
+          "AI model trained on client data"
+        ]
+      },
+      {
+        "clause_id": "data_privacy",
+        "clause_name": "Data Privacy & Security",
+        "risk": "high",
+        "red_flags": []
+      },
+      {
+        "clause_id": "confidentiality",
+        "clause_name": "Confidentiality",
+        "risk": "high",
+        "red_flags": [
+          "residuals clause"
+        ]
+      },
+      {
+        "clause_id": "auto_renewal",
+        "clause_name": "Auto-Renewal",
+        "risk": "medium",
+        "red_flags": []
+      },
+      {
+        "clause_id": "termination",
+        "clause_name": "Termination",
+        "risk": "medium",
+        "red_flags": []
+      },
+      {
+        "clause_id": "dispute_resolution",
+        "clause_name": "Dispute Resolution",
+        "risk": "medium",
+        "red_flags": []
+      },
+      {
+        "clause_id": "price_change",
+        "clause_name": "Price Change",
+        "risk": "medium",
+        "red_flags": []
+      },
+      {
+        "clause_id": "assignment",
+        "clause_name": "Assignment",
+        "risk": "medium",
+        "red_flags": []
+      },
+      {
+        "clause_id": "governing_law",
+        "clause_name": "Governing Law",
+        "risk": "low",
+        "red_flags": [
+          "foreign jurisdiction"
+        ]
+      },
+      {
+        "clause_id": "payment_terms",
+        "clause_name": "Payment Terms",
+        "risk": "low",
+        "red_flags": [
+          "suspension for disputed invoices"
+        ]
+      },
+      {
+        "clause_id": "audit_rights",
+        "clause_name": "Audit Rights",
+        "risk": "low",
+        "red_flags": [
+          "no audit rights"
+        ]
+      },
+      {
+        "clause_id": "non_solicitation",
+        "clause_name": "Non-Solicitation",
+        "risk": "low",
+        "red_flags": [
+          "duration over 12 months"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,7045 @@
+{
+  "predictions": {
+    "gpt4_zeroshot": [
+      {
+        "contract_id": "NDA-001",
+        "type": "nda",
+        "true": "confidentiality",
+        "pred": "ip_ownership",
+        "conf": 0.8397,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "miscat"
+      },
+      {
+        "contract_id": "NDA-001",
+        "type": "nda",
+        "true": "ip_ownership",
+        "pred": "ip_ownership",
+        "conf": 0.7889,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "NDA-001",
+        "type": "nda",
+        "true": "governing_law",
+        "pred": "governing_law",
+        "conf": 0.8518,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "NDA-001",
+        "type": "nda",
+        "true": "non_solicitation",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "NDA-001",
+        "type": "nda",
+        "true": "termination",
+        "pred": "termination",
+        "conf": 0.9218,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "NDA-001",
+        "type": "nda",
+        "true": null,
+        "pred": "data_privacy",
+        "conf": 0.4812,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "fp"
+      },
+      {
+        "contract_id": "SAAS-002",
+        "type": "saas",
+        "true": "limitation_of_liability",
+        "pred": "limitation_of_liability",
+        "conf": 0.8223,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-002",
+        "type": "saas",
+        "true": "indemnification",
+        "pred": "indemnification",
+        "conf": 0.8808,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-002",
+        "type": "saas",
+        "true": "ip_ownership",
+        "pred": "ip_ownership",
+        "conf": 0.7535,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-002",
+        "type": "saas",
+        "true": "data_privacy",
+        "pred": "data_privacy",
+        "conf": 0.758,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-002",
+        "type": "saas",
+        "true": "confidentiality",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "SAAS-002",
+        "type": "saas",
+        "true": "auto_renewal",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "SAAS-002",
+        "type": "saas",
+        "true": "termination",
+        "pred": "termination",
+        "conf": 0.7543,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-002",
+        "type": "saas",
+        "true": "dispute_resolution",
+        "pred": "dispute_resolution",
+        "conf": 0.7261,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-002",
+        "type": "saas",
+        "true": "price_change",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "SAAS-002",
+        "type": "saas",
+        "true": "assignment",
+        "pred": "assignment",
+        "conf": 0.591,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-002",
+        "type": "saas",
+        "true": "governing_law",
+        "pred": "governing_law",
+        "conf": 0.876,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-002",
+        "type": "saas",
+        "true": "payment_terms",
+        "pred": "payment_terms",
+        "conf": 0.8653,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "miscat"
+      },
+      {
+        "contract_id": "SAAS-002",
+        "type": "saas",
+        "true": "audit_rights",
+        "pred": "audit_rights",
+        "conf": 0.6781,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-002",
+        "type": "saas",
+        "true": "non_solicitation",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "MSA-003",
+        "type": "msa",
+        "true": "limitation_of_liability",
+        "pred": "limitation_of_liability",
+        "conf": 0.7658,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-003",
+        "type": "msa",
+        "true": "indemnification",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "MSA-003",
+        "type": "msa",
+        "true": "confidentiality",
+        "pred": "confidentiality",
+        "conf": 0.7406,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-003",
+        "type": "msa",
+        "true": "ip_ownership",
+        "pred": "ip_ownership",
+        "conf": 0.7437,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-003",
+        "type": "msa",
+        "true": "termination",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "MSA-003",
+        "type": "msa",
+        "true": "governing_law",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "MSA-003",
+        "type": "msa",
+        "true": "dispute_resolution",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "MSA-003",
+        "type": "msa",
+        "true": "payment_terms",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "MSA-003",
+        "type": "msa",
+        "true": "data_privacy",
+        "pred": "data_privacy",
+        "conf": 0.6288,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-003",
+        "type": "msa",
+        "true": "audit_rights",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "MSA-003",
+        "type": "msa",
+        "true": "assignment",
+        "pred": "assignment",
+        "conf": 0.7496,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "NDA-004",
+        "type": "nda",
+        "true": "confidentiality",
+        "pred": "confidentiality",
+        "conf": 0.8478,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "NDA-004",
+        "type": "nda",
+        "true": "ip_ownership",
+        "pred": "ip_ownership",
+        "conf": 0.99,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "NDA-004",
+        "type": "nda",
+        "true": "governing_law",
+        "pred": "governing_law",
+        "conf": 0.8315,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "NDA-004",
+        "type": "nda",
+        "true": "non_solicitation",
+        "pred": "non_solicitation",
+        "conf": 0.8098,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "NDA-004",
+        "type": "nda",
+        "true": "termination",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "SAAS-005",
+        "type": "saas",
+        "true": "limitation_of_liability",
+        "pred": "limitation_of_liability",
+        "conf": 0.7588,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-005",
+        "type": "saas",
+        "true": "indemnification",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "SAAS-005",
+        "type": "saas",
+        "true": "ip_ownership",
+        "pred": "ip_ownership",
+        "conf": 0.752,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-005",
+        "type": "saas",
+        "true": "data_privacy",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "SAAS-005",
+        "type": "saas",
+        "true": "confidentiality",
+        "pred": "confidentiality",
+        "conf": 0.8758,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-005",
+        "type": "saas",
+        "true": "auto_renewal",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "SAAS-005",
+        "type": "saas",
+        "true": "termination",
+        "pred": "termination",
+        "conf": 0.8233,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-005",
+        "type": "saas",
+        "true": "dispute_resolution",
+        "pred": "dispute_resolution",
+        "conf": 0.7492,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-005",
+        "type": "saas",
+        "true": "price_change",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "SAAS-005",
+        "type": "saas",
+        "true": "assignment",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "SAAS-005",
+        "type": "saas",
+        "true": "governing_law",
+        "pred": "governing_law",
+        "conf": 0.7183,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-005",
+        "type": "saas",
+        "true": "payment_terms",
+        "pred": "payment_terms",
+        "conf": 0.7871,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-005",
+        "type": "saas",
+        "true": "audit_rights",
+        "pred": "audit_rights",
+        "conf": 0.7573,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-005",
+        "type": "saas",
+        "true": "non_solicitation",
+        "pred": "non_solicitation",
+        "conf": 0.7996,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-006",
+        "type": "msa",
+        "true": "limitation_of_liability",
+        "pred": "limitation_of_liability",
+        "conf": 0.7816,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-006",
+        "type": "msa",
+        "true": "indemnification",
+        "pred": "indemnification",
+        "conf": 0.8311,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-006",
+        "type": "msa",
+        "true": "confidentiality",
+        "pred": "confidentiality",
+        "conf": 0.6988,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-006",
+        "type": "msa",
+        "true": "ip_ownership",
+        "pred": "ip_ownership",
+        "conf": 0.8874,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-006",
+        "type": "msa",
+        "true": "termination",
+        "pred": "termination",
+        "conf": 0.99,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-006",
+        "type": "msa",
+        "true": "governing_law",
+        "pred": "governing_law",
+        "conf": 0.8955,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-006",
+        "type": "msa",
+        "true": "dispute_resolution",
+        "pred": "dispute_resolution",
+        "conf": 0.8175,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-006",
+        "type": "msa",
+        "true": "payment_terms",
+        "pred": "payment_terms",
+        "conf": 0.8705,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-006",
+        "type": "msa",
+        "true": "data_privacy",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "MSA-006",
+        "type": "msa",
+        "true": "audit_rights",
+        "pred": "audit_rights",
+        "conf": 0.7193,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-006",
+        "type": "msa",
+        "true": "assignment",
+        "pred": "assignment",
+        "conf": 0.6733,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "NDA-007",
+        "type": "nda",
+        "true": "confidentiality",
+        "pred": "confidentiality",
+        "conf": 0.8619,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "NDA-007",
+        "type": "nda",
+        "true": "ip_ownership",
+        "pred": "ip_ownership",
+        "conf": 0.7569,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "NDA-007",
+        "type": "nda",
+        "true": "governing_law",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "NDA-007",
+        "type": "nda",
+        "true": "non_solicitation",
+        "pred": "non_solicitation",
+        "conf": 0.6923,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "NDA-007",
+        "type": "nda",
+        "true": "termination",
+        "pred": "termination",
+        "conf": 0.7296,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-008",
+        "type": "saas",
+        "true": "limitation_of_liability",
+        "pred": "limitation_of_liability",
+        "conf": 0.7096,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-008",
+        "type": "saas",
+        "true": "indemnification",
+        "pred": "indemnification",
+        "conf": 0.8108,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-008",
+        "type": "saas",
+        "true": "ip_ownership",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "SAAS-008",
+        "type": "saas",
+        "true": "data_privacy",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "SAAS-008",
+        "type": "saas",
+        "true": "confidentiality",
+        "pred": "confidentiality",
+        "conf": 0.8466,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-008",
+        "type": "saas",
+        "true": "auto_renewal",
+        "pred": "auto_renewal",
+        "conf": 0.871,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-008",
+        "type": "saas",
+        "true": "termination",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "SAAS-008",
+        "type": "saas",
+        "true": "dispute_resolution",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "SAAS-008",
+        "type": "saas",
+        "true": "price_change",
+        "pred": "price_change",
+        "conf": 0.8715,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-008",
+        "type": "saas",
+        "true": "assignment",
+        "pred": "assignment",
+        "conf": 0.8604,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-008",
+        "type": "saas",
+        "true": "governing_law",
+        "pred": "governing_law",
+        "conf": 0.7834,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-008",
+        "type": "saas",
+        "true": "payment_terms",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "SAAS-008",
+        "type": "saas",
+        "true": "audit_rights",
+        "pred": "audit_rights",
+        "conf": 0.7501,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-008",
+        "type": "saas",
+        "true": "non_solicitation",
+        "pred": "non_solicitation",
+        "conf": 0.6793,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-009",
+        "type": "msa",
+        "true": "limitation_of_liability",
+        "pred": "limitation_of_liability",
+        "conf": 0.888,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-009",
+        "type": "msa",
+        "true": "indemnification",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "MSA-009",
+        "type": "msa",
+        "true": "confidentiality",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "MSA-009",
+        "type": "msa",
+        "true": "ip_ownership",
+        "pred": "ip_ownership",
+        "conf": 0.7858,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-009",
+        "type": "msa",
+        "true": "termination",
+        "pred": "termination",
+        "conf": 0.7672,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-009",
+        "type": "msa",
+        "true": "governing_law",
+        "pred": "governing_law",
+        "conf": 0.8944,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-009",
+        "type": "msa",
+        "true": "dispute_resolution",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "MSA-009",
+        "type": "msa",
+        "true": "payment_terms",
+        "pred": "payment_terms",
+        "conf": 0.7281,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-009",
+        "type": "msa",
+        "true": "data_privacy",
+        "pred": "data_privacy",
+        "conf": 0.8668,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "miscat"
+      },
+      {
+        "contract_id": "MSA-009",
+        "type": "msa",
+        "true": "audit_rights",
+        "pred": "audit_rights",
+        "conf": 0.8237,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-009",
+        "type": "msa",
+        "true": "assignment",
+        "pred": "assignment",
+        "conf": 0.717,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-009",
+        "type": "msa",
+        "true": null,
+        "pred": "indemnification",
+        "conf": 0.5926,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "fp"
+      },
+      {
+        "contract_id": "NDA-010",
+        "type": "nda",
+        "true": "confidentiality",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "NDA-010",
+        "type": "nda",
+        "true": "ip_ownership",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "NDA-010",
+        "type": "nda",
+        "true": "governing_law",
+        "pred": "governing_law",
+        "conf": 0.7939,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "NDA-010",
+        "type": "nda",
+        "true": "non_solicitation",
+        "pred": "non_solicitation",
+        "conf": 0.8289,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "NDA-010",
+        "type": "nda",
+        "true": "termination",
+        "pred": "termination",
+        "conf": 0.923,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-011",
+        "type": "saas",
+        "true": "limitation_of_liability",
+        "pred": "limitation_of_liability",
+        "conf": 0.7971,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-011",
+        "type": "saas",
+        "true": "indemnification",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [
+          "uncapped indemnification"
+        ],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "SAAS-011",
+        "type": "saas",
+        "true": "ip_ownership",
+        "pred": "ip_ownership",
+        "conf": 0.9252,
+        "true_flags": [
+          "vendor retains deliverables"
+        ],
+        "pred_flags": [
+          "vendor retains deliverables"
+        ],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-011",
+        "type": "saas",
+        "true": "data_privacy",
+        "pred": "data_privacy",
+        "conf": 0.5904,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-011",
+        "type": "saas",
+        "true": "confidentiality",
+        "pred": "confidentiality",
+        "conf": 0.8658,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-011",
+        "type": "saas",
+        "true": "auto_renewal",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "SAAS-011",
+        "type": "saas",
+        "true": "termination",
+        "pred": "termination",
+        "conf": 0.807,
+        "true_flags": [
+          "cure period under 15 days"
+        ],
+        "pred_flags": [
+          "cure period under 15 days"
+        ],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-011",
+        "type": "saas",
+        "true": "dispute_resolution",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [
+          "mandatory arbitration"
+        ],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "SAAS-011",
+        "type": "saas",
+        "true": "price_change",
+        "pred": "price_change",
+        "conf": 0.7761,
+        "true_flags": [
+          "uncapped price increase"
+        ],
+        "pred_flags": [
+          "uncapped price increase"
+        ],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-011",
+        "type": "saas",
+        "true": "assignment",
+        "pred": "assignment",
+        "conf": 0.8073,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-011",
+        "type": "saas",
+        "true": "governing_law",
+        "pred": "governing_law",
+        "conf": 0.641,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-011",
+        "type": "saas",
+        "true": "payment_terms",
+        "pred": "payment_terms",
+        "conf": 0.7824,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-011",
+        "type": "saas",
+        "true": "audit_rights",
+        "pred": "audit_rights",
+        "conf": 0.8286,
+        "true_flags": [
+          "no audit rights"
+        ],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-011",
+        "type": "saas",
+        "true": "non_solicitation",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "MSA-012",
+        "type": "msa",
+        "true": "limitation_of_liability",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "MSA-012",
+        "type": "msa",
+        "true": "indemnification",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [
+          "unilateral indemnification"
+        ],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "MSA-012",
+        "type": "msa",
+        "true": "confidentiality",
+        "pred": "confidentiality",
+        "conf": 0.9182,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-012",
+        "type": "msa",
+        "true": "ip_ownership",
+        "pred": "ip_ownership",
+        "conf": 0.7585,
+        "true_flags": [
+          "vendor retains deliverables"
+        ],
+        "pred_flags": [
+          "vendor retains deliverables"
+        ],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-012",
+        "type": "msa",
+        "true": "termination",
+        "pred": "termination",
+        "conf": 0.7353,
+        "true_flags": [
+          "cure period under 15 days"
+        ],
+        "pred_flags": [
+          "cure period under 15 days"
+        ],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-012",
+        "type": "msa",
+        "true": "governing_law",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [
+          "foreign jurisdiction"
+        ],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "MSA-012",
+        "type": "msa",
+        "true": "dispute_resolution",
+        "pred": "dispute_resolution",
+        "conf": 0.7599,
+        "true_flags": [
+          "class action waiver"
+        ],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-012",
+        "type": "msa",
+        "true": "payment_terms",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "MSA-012",
+        "type": "msa",
+        "true": "data_privacy",
+        "pred": "data_privacy",
+        "conf": 0.8732,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-012",
+        "type": "msa",
+        "true": "audit_rights",
+        "pred": "audit_rights",
+        "conf": 0.8263,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-012",
+        "type": "msa",
+        "true": "assignment",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [
+          "no change-of-control protection"
+        ],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "NDA-013",
+        "type": "nda",
+        "true": "confidentiality",
+        "pred": "confidentiality",
+        "conf": 0.7576,
+        "true_flags": [
+          "residuals clause"
+        ],
+        "pred_flags": [
+          "residuals clause"
+        ],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "NDA-013",
+        "type": "nda",
+        "true": "ip_ownership",
+        "pred": "ip_ownership",
+        "conf": 0.8411,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "NDA-013",
+        "type": "nda",
+        "true": "governing_law",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "NDA-013",
+        "type": "nda",
+        "true": "non_solicitation",
+        "pred": "non_solicitation",
+        "conf": 0.8078,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "NDA-013",
+        "type": "nda",
+        "true": "termination",
+        "pred": "termination",
+        "conf": 0.8775,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-014",
+        "type": "saas",
+        "true": "limitation_of_liability",
+        "pred": "limitation_of_liability",
+        "conf": 0.7438,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-014",
+        "type": "saas",
+        "true": "indemnification",
+        "pred": "indemnification",
+        "conf": 0.7738,
+        "true_flags": [
+          "unilateral indemnification"
+        ],
+        "pred_flags": [
+          "unilateral indemnification"
+        ],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-014",
+        "type": "saas",
+        "true": "ip_ownership",
+        "pred": "ip_ownership",
+        "conf": 0.7686,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-014",
+        "type": "saas",
+        "true": "data_privacy",
+        "pred": "data_privacy",
+        "conf": 0.6829,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-014",
+        "type": "saas",
+        "true": "confidentiality",
+        "pred": "confidentiality",
+        "conf": 0.8237,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-014",
+        "type": "saas",
+        "true": "auto_renewal",
+        "pred": "auto_renewal",
+        "conf": 0.8209,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-014",
+        "type": "saas",
+        "true": "termination",
+        "pred": "termination",
+        "conf": 0.8004,
+        "true_flags": [
+          "cure period under 15 days"
+        ],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-014",
+        "type": "saas",
+        "true": "dispute_resolution",
+        "pred": "dispute_resolution",
+        "conf": 0.7812,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-014",
+        "type": "saas",
+        "true": "price_change",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [
+          "less than 30 days notice"
+        ],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "SAAS-014",
+        "type": "saas",
+        "true": "assignment",
+        "pred": "assignment",
+        "conf": 0.6868,
+        "true_flags": [
+          "no change-of-control protection"
+        ],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-014",
+        "type": "saas",
+        "true": "governing_law",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "SAAS-014",
+        "type": "saas",
+        "true": "payment_terms",
+        "pred": "payment_terms",
+        "conf": 0.7663,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-014",
+        "type": "saas",
+        "true": "audit_rights",
+        "pred": "audit_rights",
+        "conf": 0.7726,
+        "true_flags": [
+          "no audit rights"
+        ],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-014",
+        "type": "saas",
+        "true": "non_solicitation",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [
+          "duration over 12 months"
+        ],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "MSA-015",
+        "type": "msa",
+        "true": "limitation_of_liability",
+        "pred": "limitation_of_liability",
+        "conf": 0.7358,
+        "true_flags": [
+          "no carve-out for gross negligence"
+        ],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-015",
+        "type": "msa",
+        "true": "indemnification",
+        "pred": "indemnification",
+        "conf": 0.7871,
+        "true_flags": [
+          "unilateral indemnification"
+        ],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-015",
+        "type": "msa",
+        "true": "confidentiality",
+        "pred": "confidentiality",
+        "conf": 0.8323,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-015",
+        "type": "msa",
+        "true": "ip_ownership",
+        "pred": "ip_ownership",
+        "conf": 0.9509,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-015",
+        "type": "msa",
+        "true": "termination",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "MSA-015",
+        "type": "msa",
+        "true": "governing_law",
+        "pred": "governing_law",
+        "conf": 0.814,
+        "true_flags": [
+          "foreign jurisdiction"
+        ],
+        "pred_flags": [
+          "foreign jurisdiction"
+        ],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-015",
+        "type": "msa",
+        "true": "dispute_resolution",
+        "pred": "dispute_resolution",
+        "conf": 0.8206,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-015",
+        "type": "msa",
+        "true": "payment_terms",
+        "pred": "payment_terms",
+        "conf": 0.794,
+        "true_flags": [
+          "suspension for disputed invoices"
+        ],
+        "pred_flags": [
+          "suspension for disputed invoices"
+        ],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-015",
+        "type": "msa",
+        "true": "data_privacy",
+        "pred": "data_privacy",
+        "conf": 0.6465,
+        "true_flags": [
+          "breach notification over 72 hours"
+        ],
+        "pred_flags": [
+          "breach notification over 72 hours"
+        ],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-015",
+        "type": "msa",
+        "true": "audit_rights",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [
+          "no audit rights"
+        ],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "MSA-015",
+        "type": "msa",
+        "true": "assignment",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [
+          "no change-of-control protection"
+        ],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "NDA-016",
+        "type": "nda",
+        "true": "confidentiality",
+        "pred": "confidentiality",
+        "conf": 0.7979,
+        "true_flags": [
+          "no time limit"
+        ],
+        "pred_flags": [
+          "no time limit"
+        ],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "NDA-016",
+        "type": "nda",
+        "true": "ip_ownership",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [
+          "AI model trained on client data"
+        ],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "NDA-016",
+        "type": "nda",
+        "true": "governing_law",
+        "pred": "governing_law",
+        "conf": 0.8048,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "NDA-016",
+        "type": "nda",
+        "true": "non_solicitation",
+        "pred": "non_solicitation",
+        "conf": 0.99,
+        "true_flags": [
+          "duration over 12 months"
+        ],
+        "pred_flags": [
+          "duration over 12 months"
+        ],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "NDA-016",
+        "type": "nda",
+        "true": "termination",
+        "pred": "termination",
+        "conf": 0.7846,
+        "true_flags": [
+          "termination fee"
+        ],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-017",
+        "type": "saas",
+        "true": "limitation_of_liability",
+        "pred": "limitation_of_liability",
+        "conf": 0.8241,
+        "true_flags": [
+          "cap below 12 months fees"
+        ],
+        "pred_flags": [
+          "cap below 12 months fees"
+        ],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-017",
+        "type": "saas",
+        "true": "indemnification",
+        "pred": "indemnification",
+        "conf": 0.7972,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-017",
+        "type": "saas",
+        "true": "ip_ownership",
+        "pred": "ip_ownership",
+        "conf": 0.7065,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-017",
+        "type": "saas",
+        "true": "data_privacy",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [
+          "no DPA"
+        ],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "SAAS-017",
+        "type": "saas",
+        "true": "confidentiality",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "SAAS-017",
+        "type": "saas",
+        "true": "auto_renewal",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [
+          "short cancellation window"
+        ],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "SAAS-017",
+        "type": "saas",
+        "true": "termination",
+        "pred": "termination",
+        "conf": 0.8914,
+        "true_flags": [
+          "cure period under 15 days"
+        ],
+        "pred_flags": [
+          "cure period under 15 days"
+        ],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-017",
+        "type": "saas",
+        "true": "dispute_resolution",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [
+          "mandatory arbitration"
+        ],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "SAAS-017",
+        "type": "saas",
+        "true": "price_change",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "SAAS-017",
+        "type": "saas",
+        "true": "assignment",
+        "pred": "assignment",
+        "conf": 0.8602,
+        "true_flags": [
+          "no change-of-control protection"
+        ],
+        "pred_flags": [
+          "no change-of-control protection"
+        ],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-017",
+        "type": "saas",
+        "true": "governing_law",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "SAAS-017",
+        "type": "saas",
+        "true": "payment_terms",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [
+          "suspension for disputed invoices"
+        ],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "SAAS-017",
+        "type": "saas",
+        "true": "audit_rights",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [
+          "no audit rights"
+        ],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "SAAS-017",
+        "type": "saas",
+        "true": "non_solicitation",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [
+          "duration over 12 months"
+        ],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "MSA-018",
+        "type": "msa",
+        "true": "limitation_of_liability",
+        "pred": "limitation_of_liability",
+        "conf": 0.8633,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-018",
+        "type": "msa",
+        "true": "indemnification",
+        "pred": "indemnification",
+        "conf": 0.7272,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-018",
+        "type": "msa",
+        "true": "confidentiality",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [
+          "no time limit"
+        ],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "MSA-018",
+        "type": "msa",
+        "true": "ip_ownership",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "MSA-018",
+        "type": "msa",
+        "true": "termination",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [
+          "termination fee"
+        ],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "MSA-018",
+        "type": "msa",
+        "true": "governing_law",
+        "pred": "governing_law",
+        "conf": 0.9122,
+        "true_flags": [
+          "foreign jurisdiction"
+        ],
+        "pred_flags": [
+          "foreign jurisdiction"
+        ],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-018",
+        "type": "msa",
+        "true": "dispute_resolution",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [
+          "mandatory arbitration"
+        ],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "MSA-018",
+        "type": "msa",
+        "true": "payment_terms",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "MSA-018",
+        "type": "msa",
+        "true": "data_privacy",
+        "pred": "data_privacy",
+        "conf": 0.6879,
+        "true_flags": [
+          "no DPA"
+        ],
+        "pred_flags": [
+          "no DPA"
+        ],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-018",
+        "type": "msa",
+        "true": "audit_rights",
+        "pred": "audit_rights",
+        "conf": 0.8469,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-018",
+        "type": "msa",
+        "true": "assignment",
+        "pred": "assignment",
+        "conf": 0.9752,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "miscat"
+      },
+      {
+        "contract_id": "NDA-019",
+        "type": "nda",
+        "true": "confidentiality",
+        "pred": "confidentiality",
+        "conf": 0.7208,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "NDA-019",
+        "type": "nda",
+        "true": "ip_ownership",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [
+          "vendor retains deliverables"
+        ],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "NDA-019",
+        "type": "nda",
+        "true": "governing_law",
+        "pred": "governing_law",
+        "conf": 0.7547,
+        "true_flags": [
+          "foreign jurisdiction"
+        ],
+        "pred_flags": [
+          "foreign jurisdiction"
+        ],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "NDA-019",
+        "type": "nda",
+        "true": "non_solicitation",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [
+          "duration over 12 months"
+        ],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "NDA-019",
+        "type": "nda",
+        "true": "termination",
+        "pred": "termination",
+        "conf": 0.808,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-020",
+        "type": "saas",
+        "true": "limitation_of_liability",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "SAAS-020",
+        "type": "saas",
+        "true": "indemnification",
+        "pred": "indemnification",
+        "conf": 0.7597,
+        "true_flags": [
+          "unilateral indemnification"
+        ],
+        "pred_flags": [
+          "unilateral indemnification"
+        ],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-020",
+        "type": "saas",
+        "true": "ip_ownership",
+        "pred": "ip_ownership",
+        "conf": 0.6759,
+        "true_flags": [
+          "AI model trained on client data"
+        ],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-020",
+        "type": "saas",
+        "true": "data_privacy",
+        "pred": "data_privacy",
+        "conf": 0.8055,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-020",
+        "type": "saas",
+        "true": "confidentiality",
+        "pred": "confidentiality",
+        "conf": 0.715,
+        "true_flags": [
+          "residuals clause"
+        ],
+        "pred_flags": [
+          "residuals clause"
+        ],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-020",
+        "type": "saas",
+        "true": "auto_renewal",
+        "pred": "auto_renewal",
+        "conf": 0.8379,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-020",
+        "type": "saas",
+        "true": "termination",
+        "pred": "termination",
+        "conf": 0.7264,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-020",
+        "type": "saas",
+        "true": "dispute_resolution",
+        "pred": "dispute_resolution",
+        "conf": 0.924,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-020",
+        "type": "saas",
+        "true": "price_change",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "SAAS-020",
+        "type": "saas",
+        "true": "assignment",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "SAAS-020",
+        "type": "saas",
+        "true": "governing_law",
+        "pred": "governing_law",
+        "conf": 0.7373,
+        "true_flags": [
+          "foreign jurisdiction"
+        ],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-020",
+        "type": "saas",
+        "true": "payment_terms",
+        "pred": "payment_terms",
+        "conf": 0.7742,
+        "true_flags": [
+          "suspension for disputed invoices"
+        ],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-020",
+        "type": "saas",
+        "true": "audit_rights",
+        "pred": "audit_rights",
+        "conf": 0.8651,
+        "true_flags": [
+          "no audit rights"
+        ],
+        "pred_flags": [
+          "no audit rights"
+        ],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-020",
+        "type": "saas",
+        "true": "non_solicitation",
+        "pred": "non_solicitation",
+        "conf": 0.7015,
+        "true_flags": [
+          "duration over 12 months"
+        ],
+        "pred_flags": [
+          "duration over 12 months"
+        ],
+        "outcome": "tp"
+      }
+    ],
+    "claude_fewshot": [
+      {
+        "contract_id": "NDA-001",
+        "type": "nda",
+        "true": "confidentiality",
+        "pred": "ip_ownership",
+        "conf": 0.8997,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "miscat"
+      },
+      {
+        "contract_id": "NDA-001",
+        "type": "nda",
+        "true": "ip_ownership",
+        "pred": "ip_ownership",
+        "conf": 0.8489,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "NDA-001",
+        "type": "nda",
+        "true": "governing_law",
+        "pred": "governing_law",
+        "conf": 0.9118,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "NDA-001",
+        "type": "nda",
+        "true": "non_solicitation",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "NDA-001",
+        "type": "nda",
+        "true": "termination",
+        "pred": "termination",
+        "conf": 0.9818,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "NDA-001",
+        "type": "nda",
+        "true": null,
+        "pred": "data_privacy",
+        "conf": 0.4812,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "fp"
+      },
+      {
+        "contract_id": "SAAS-002",
+        "type": "saas",
+        "true": "limitation_of_liability",
+        "pred": "limitation_of_liability",
+        "conf": 0.8823,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-002",
+        "type": "saas",
+        "true": "indemnification",
+        "pred": "indemnification",
+        "conf": 0.9408,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-002",
+        "type": "saas",
+        "true": "ip_ownership",
+        "pred": "ip_ownership",
+        "conf": 0.8135,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-002",
+        "type": "saas",
+        "true": "data_privacy",
+        "pred": "data_privacy",
+        "conf": 0.818,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-002",
+        "type": "saas",
+        "true": "confidentiality",
+        "pred": "confidentiality",
+        "conf": 0.8143,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-002",
+        "type": "saas",
+        "true": "auto_renewal",
+        "pred": "auto_renewal",
+        "conf": 0.7861,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-002",
+        "type": "saas",
+        "true": "termination",
+        "pred": "termination",
+        "conf": 0.651,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-002",
+        "type": "saas",
+        "true": "dispute_resolution",
+        "pred": "dispute_resolution",
+        "conf": 0.936,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-002",
+        "type": "saas",
+        "true": "price_change",
+        "pred": "price_change",
+        "conf": 0.9253,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-002",
+        "type": "saas",
+        "true": "assignment",
+        "pred": "assignment",
+        "conf": 0.7381,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-002",
+        "type": "saas",
+        "true": "governing_law",
+        "pred": "governing_law",
+        "conf": 0.8258,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-002",
+        "type": "saas",
+        "true": "payment_terms",
+        "pred": "payment_terms",
+        "conf": 0.8006,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-002",
+        "type": "saas",
+        "true": "audit_rights",
+        "pred": "audit_rights",
+        "conf": 0.8037,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-002",
+        "type": "saas",
+        "true": "non_solicitation",
+        "pred": "non_solicitation",
+        "conf": 0.6888,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-003",
+        "type": "msa",
+        "true": "limitation_of_liability",
+        "pred": "limitation_of_liability",
+        "conf": 0.8096,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-003",
+        "type": "msa",
+        "true": "indemnification",
+        "pred": "indemnification",
+        "conf": 0.9078,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-003",
+        "type": "msa",
+        "true": "confidentiality",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "MSA-003",
+        "type": "msa",
+        "true": "ip_ownership",
+        "pred": "ip_ownership",
+        "conf": 0.99,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-003",
+        "type": "msa",
+        "true": "termination",
+        "pred": "termination",
+        "conf": 0.8915,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-003",
+        "type": "msa",
+        "true": "governing_law",
+        "pred": "governing_law",
+        "conf": 0.8698,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-003",
+        "type": "msa",
+        "true": "dispute_resolution",
+        "pred": "dispute_resolution",
+        "conf": 0.8188,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-003",
+        "type": "msa",
+        "true": "payment_terms",
+        "pred": "payment_terms",
+        "conf": 0.812,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-003",
+        "type": "msa",
+        "true": "data_privacy",
+        "pred": "data_privacy",
+        "conf": 0.9358,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-003",
+        "type": "msa",
+        "true": "audit_rights",
+        "pred": "audit_rights",
+        "conf": 0.8833,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-003",
+        "type": "msa",
+        "true": "assignment",
+        "pred": "assignment",
+        "conf": 0.8092,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "NDA-004",
+        "type": "nda",
+        "true": "confidentiality",
+        "pred": "confidentiality",
+        "conf": 0.7783,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "NDA-004",
+        "type": "nda",
+        "true": "ip_ownership",
+        "pred": "ip_ownership",
+        "conf": 0.8471,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "NDA-004",
+        "type": "nda",
+        "true": "governing_law",
+        "pred": "governing_law",
+        "conf": 0.8173,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "NDA-004",
+        "type": "nda",
+        "true": "non_solicitation",
+        "pred": "non_solicitation",
+        "conf": 0.8596,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "NDA-004",
+        "type": "nda",
+        "true": "termination",
+        "pred": "termination",
+        "conf": 0.8416,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-005",
+        "type": "saas",
+        "true": "limitation_of_liability",
+        "pred": "limitation_of_liability",
+        "conf": 0.8911,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-005",
+        "type": "saas",
+        "true": "indemnification",
+        "pred": "indemnification",
+        "conf": 0.7588,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-005",
+        "type": "saas",
+        "true": "ip_ownership",
+        "pred": "ip_ownership",
+        "conf": 0.9474,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-005",
+        "type": "saas",
+        "true": "data_privacy",
+        "pred": "data_privacy",
+        "conf": 0.99,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-005",
+        "type": "saas",
+        "true": "confidentiality",
+        "pred": "confidentiality",
+        "conf": 0.9555,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-005",
+        "type": "saas",
+        "true": "auto_renewal",
+        "pred": "auto_renewal",
+        "conf": 0.8775,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-005",
+        "type": "saas",
+        "true": "termination",
+        "pred": "termination",
+        "conf": 0.9305,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-005",
+        "type": "saas",
+        "true": "dispute_resolution",
+        "pred": "dispute_resolution",
+        "conf": 0.7793,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-005",
+        "type": "saas",
+        "true": "price_change",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "SAAS-005",
+        "type": "saas",
+        "true": "assignment",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "SAAS-005",
+        "type": "saas",
+        "true": "governing_law",
+        "pred": "governing_law",
+        "conf": 0.7333,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-005",
+        "type": "saas",
+        "true": "payment_terms",
+        "pred": "payment_terms",
+        "conf": 0.9219,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-005",
+        "type": "saas",
+        "true": "audit_rights",
+        "pred": "audit_rights",
+        "conf": 0.8169,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-005",
+        "type": "saas",
+        "true": "non_solicitation",
+        "pred": "non_solicitation",
+        "conf": 0.7523,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-006",
+        "type": "msa",
+        "true": "limitation_of_liability",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "MSA-006",
+        "type": "msa",
+        "true": "indemnification",
+        "pred": "indemnification",
+        "conf": 0.7896,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-006",
+        "type": "msa",
+        "true": "confidentiality",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "MSA-006",
+        "type": "msa",
+        "true": "ip_ownership",
+        "pred": "ip_ownership",
+        "conf": 0.7696,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-006",
+        "type": "msa",
+        "true": "termination",
+        "pred": "termination",
+        "conf": 0.8708,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-006",
+        "type": "msa",
+        "true": "governing_law",
+        "pred": "governing_law",
+        "conf": 0.9066,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "miscat"
+      },
+      {
+        "contract_id": "MSA-006",
+        "type": "msa",
+        "true": "dispute_resolution",
+        "pred": "dispute_resolution",
+        "conf": 0.931,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-006",
+        "type": "msa",
+        "true": "payment_terms",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "MSA-006",
+        "type": "msa",
+        "true": "data_privacy",
+        "pred": "data_privacy",
+        "conf": 0.9315,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-006",
+        "type": "msa",
+        "true": "audit_rights",
+        "pred": "audit_rights",
+        "conf": 0.9204,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-006",
+        "type": "msa",
+        "true": "assignment",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "NDA-007",
+        "type": "nda",
+        "true": "confidentiality",
+        "pred": "confidentiality",
+        "conf": 0.8434,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "NDA-007",
+        "type": "nda",
+        "true": "ip_ownership",
+        "pred": "ip_ownership",
+        "conf": 0.8101,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "NDA-007",
+        "type": "nda",
+        "true": "governing_law",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "NDA-007",
+        "type": "nda",
+        "true": "non_solicitation",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "NDA-007",
+        "type": "nda",
+        "true": "termination",
+        "pred": "termination",
+        "conf": 0.7393,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-008",
+        "type": "saas",
+        "true": "limitation_of_liability",
+        "pred": "limitation_of_liability",
+        "conf": 0.948,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-008",
+        "type": "saas",
+        "true": "indemnification",
+        "pred": "indemnification",
+        "conf": 0.8458,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-008",
+        "type": "saas",
+        "true": "ip_ownership",
+        "pred": "ip_ownership",
+        "conf": 0.8272,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-008",
+        "type": "saas",
+        "true": "data_privacy",
+        "pred": "data_privacy",
+        "conf": 0.9544,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-008",
+        "type": "saas",
+        "true": "confidentiality",
+        "pred": "confidentiality",
+        "conf": 0.7881,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-008",
+        "type": "saas",
+        "true": "auto_renewal",
+        "pred": "auto_renewal",
+        "conf": 0.9268,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-008",
+        "type": "saas",
+        "true": "termination",
+        "pred": "termination",
+        "conf": 0.8837,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-008",
+        "type": "saas",
+        "true": "dispute_resolution",
+        "pred": "dispute_resolution",
+        "conf": 0.777,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-008",
+        "type": "saas",
+        "true": "price_change",
+        "pred": "price_change",
+        "conf": 0.8539,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-008",
+        "type": "saas",
+        "true": "assignment",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "SAAS-008",
+        "type": "saas",
+        "true": "governing_law",
+        "pred": "governing_law",
+        "conf": 0.9378,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-008",
+        "type": "saas",
+        "true": "payment_terms",
+        "pred": "payment_terms",
+        "conf": 0.9236,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-008",
+        "type": "saas",
+        "true": "audit_rights",
+        "pred": "audit_rights",
+        "conf": 0.9796,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-008",
+        "type": "saas",
+        "true": "non_solicitation",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "MSA-009",
+        "type": "msa",
+        "true": "limitation_of_liability",
+        "pred": "limitation_of_liability",
+        "conf": 0.8871,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-009",
+        "type": "msa",
+        "true": "indemnification",
+        "pred": "indemnification",
+        "conf": 0.99,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-009",
+        "type": "msa",
+        "true": "confidentiality",
+        "pred": "ip_ownership",
+        "conf": 0.7864,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "miscat"
+      },
+      {
+        "contract_id": "MSA-009",
+        "type": "msa",
+        "true": "ip_ownership",
+        "pred": "ip_ownership",
+        "conf": 0.8281,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-009",
+        "type": "msa",
+        "true": "termination",
+        "pred": "dispute_resolution",
+        "conf": 0.8551,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "miscat"
+      },
+      {
+        "contract_id": "MSA-009",
+        "type": "msa",
+        "true": "governing_law",
+        "pred": "governing_law",
+        "conf": 0.7465,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-009",
+        "type": "msa",
+        "true": "dispute_resolution",
+        "pred": "dispute_resolution",
+        "conf": 0.9434,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-009",
+        "type": "msa",
+        "true": "payment_terms",
+        "pred": "payment_terms",
+        "conf": 0.9323,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-009",
+        "type": "msa",
+        "true": "data_privacy",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "MSA-009",
+        "type": "msa",
+        "true": "audit_rights",
+        "pred": "audit_rights",
+        "conf": 0.8615,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-009",
+        "type": "msa",
+        "true": "assignment",
+        "pred": "assignment",
+        "conf": 0.8172,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "NDA-010",
+        "type": "nda",
+        "true": "confidentiality",
+        "pred": "confidentiality",
+        "conf": 0.7404,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "NDA-010",
+        "type": "nda",
+        "true": "ip_ownership",
+        "pred": "ip_ownership",
+        "conf": 0.7969,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "NDA-010",
+        "type": "nda",
+        "true": "governing_law",
+        "pred": "governing_law",
+        "conf": 0.9195,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "NDA-010",
+        "type": "nda",
+        "true": "non_solicitation",
+        "pred": "non_solicitation",
+        "conf": 0.843,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "NDA-010",
+        "type": "nda",
+        "true": "termination",
+        "pred": "termination",
+        "conf": 0.8259,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-011",
+        "type": "saas",
+        "true": "limitation_of_liability",
+        "pred": "limitation_of_liability",
+        "conf": 0.9001,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-011",
+        "type": "saas",
+        "true": "indemnification",
+        "pred": "indemnification",
+        "conf": 0.9527,
+        "true_flags": [
+          "uncapped indemnification"
+        ],
+        "pred_flags": [
+          "uncapped indemnification"
+        ],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-011",
+        "type": "saas",
+        "true": "ip_ownership",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [
+          "vendor retains deliverables"
+        ],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "SAAS-011",
+        "type": "saas",
+        "true": "data_privacy",
+        "pred": "data_privacy",
+        "conf": 0.8806,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-011",
+        "type": "saas",
+        "true": "confidentiality",
+        "pred": "confidentiality",
+        "conf": 0.8852,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-011",
+        "type": "saas",
+        "true": "auto_renewal",
+        "pred": "auto_renewal",
+        "conf": 0.9697,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-011",
+        "type": "saas",
+        "true": "termination",
+        "pred": "termination",
+        "conf": 0.874,
+        "true_flags": [
+          "cure period under 15 days"
+        ],
+        "pred_flags": [
+          "cure period under 15 days"
+        ],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-011",
+        "type": "saas",
+        "true": "dispute_resolution",
+        "pred": "dispute_resolution",
+        "conf": 0.8353,
+        "true_flags": [
+          "mandatory arbitration"
+        ],
+        "pred_flags": [
+          "mandatory arbitration"
+        ],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-011",
+        "type": "saas",
+        "true": "price_change",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [
+          "uncapped price increase"
+        ],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "SAAS-011",
+        "type": "saas",
+        "true": "assignment",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "SAAS-011",
+        "type": "saas",
+        "true": "governing_law",
+        "pred": "governing_law",
+        "conf": 0.9139,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "miscat"
+      },
+      {
+        "contract_id": "SAAS-011",
+        "type": "saas",
+        "true": "payment_terms",
+        "pred": "payment_terms",
+        "conf": 0.8395,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-011",
+        "type": "saas",
+        "true": "audit_rights",
+        "pred": "audit_rights",
+        "conf": 0.8306,
+        "true_flags": [
+          "no audit rights"
+        ],
+        "pred_flags": [
+          "no audit rights"
+        ],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-011",
+        "type": "saas",
+        "true": "non_solicitation",
+        "pred": "non_solicitation",
+        "conf": 0.9619,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-012",
+        "type": "msa",
+        "true": "limitation_of_liability",
+        "pred": "limitation_of_liability",
+        "conf": 0.8366,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-012",
+        "type": "msa",
+        "true": "indemnification",
+        "pred": "indemnification",
+        "conf": 0.6476,
+        "true_flags": [
+          "unilateral indemnification"
+        ],
+        "pred_flags": [
+          "unilateral indemnification"
+        ],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-012",
+        "type": "msa",
+        "true": "confidentiality",
+        "pred": "confidentiality",
+        "conf": 0.8876,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-012",
+        "type": "msa",
+        "true": "ip_ownership",
+        "pred": "ip_ownership",
+        "conf": 0.8284,
+        "true_flags": [
+          "vendor retains deliverables"
+        ],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-012",
+        "type": "msa",
+        "true": "termination",
+        "pred": "termination",
+        "conf": 0.8369,
+        "true_flags": [
+          "cure period under 15 days"
+        ],
+        "pred_flags": [
+          "cure period under 15 days"
+        ],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-012",
+        "type": "msa",
+        "true": "governing_law",
+        "pred": "governing_law",
+        "conf": 0.8962,
+        "true_flags": [
+          "foreign jurisdiction"
+        ],
+        "pred_flags": [
+          "foreign jurisdiction"
+        ],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-012",
+        "type": "msa",
+        "true": "dispute_resolution",
+        "pred": "dispute_resolution",
+        "conf": 0.8467,
+        "true_flags": [
+          "class action waiver"
+        ],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-012",
+        "type": "msa",
+        "true": "payment_terms",
+        "pred": "payment_terms",
+        "conf": 0.8772,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-012",
+        "type": "msa",
+        "true": "data_privacy",
+        "pred": "data_privacy",
+        "conf": 0.6982,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-012",
+        "type": "msa",
+        "true": "audit_rights",
+        "pred": "audit_rights",
+        "conf": 0.7846,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-012",
+        "type": "msa",
+        "true": "assignment",
+        "pred": "assignment",
+        "conf": 0.9723,
+        "true_flags": [
+          "no change-of-control protection"
+        ],
+        "pred_flags": [
+          "no change-of-control protection"
+        ],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "NDA-013",
+        "type": "nda",
+        "true": "confidentiality",
+        "pred": "confidentiality",
+        "conf": 0.8585,
+        "true_flags": [
+          "residuals clause"
+        ],
+        "pred_flags": [
+          "residuals clause"
+        ],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "NDA-013",
+        "type": "nda",
+        "true": "ip_ownership",
+        "pred": "ip_ownership",
+        "conf": 0.7261,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "NDA-013",
+        "type": "nda",
+        "true": "governing_law",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "NDA-013",
+        "type": "nda",
+        "true": "non_solicitation",
+        "pred": "non_solicitation",
+        "conf": 0.7742,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "NDA-013",
+        "type": "nda",
+        "true": "termination",
+        "pred": "termination",
+        "conf": 0.7806,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-014",
+        "type": "saas",
+        "true": "limitation_of_liability",
+        "pred": "limitation_of_liability",
+        "conf": 0.8682,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-014",
+        "type": "saas",
+        "true": "indemnification",
+        "pred": "indemnification",
+        "conf": 0.8254,
+        "true_flags": [
+          "unilateral indemnification"
+        ],
+        "pred_flags": [
+          "unilateral indemnification"
+        ],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-014",
+        "type": "saas",
+        "true": "ip_ownership",
+        "pred": "ip_ownership",
+        "conf": 0.8073,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-014",
+        "type": "saas",
+        "true": "data_privacy",
+        "pred": "data_privacy",
+        "conf": 0.8603,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-014",
+        "type": "saas",
+        "true": "confidentiality",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "SAAS-014",
+        "type": "saas",
+        "true": "auto_renewal",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "SAAS-014",
+        "type": "saas",
+        "true": "termination",
+        "pred": "termination",
+        "conf": 0.8982,
+        "true_flags": [
+          "cure period under 15 days"
+        ],
+        "pred_flags": [
+          "cure period under 15 days"
+        ],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-014",
+        "type": "saas",
+        "true": "dispute_resolution",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "SAAS-014",
+        "type": "saas",
+        "true": "price_change",
+        "pred": "price_change",
+        "conf": 0.8393,
+        "true_flags": [
+          "less than 30 days notice"
+        ],
+        "pred_flags": [
+          "less than 30 days notice"
+        ],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-014",
+        "type": "saas",
+        "true": "assignment",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [
+          "no change-of-control protection"
+        ],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "SAAS-014",
+        "type": "saas",
+        "true": "governing_law",
+        "pred": "governing_law",
+        "conf": 0.814,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-014",
+        "type": "saas",
+        "true": "payment_terms",
+        "pred": "payment_terms",
+        "conf": 0.8263,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-014",
+        "type": "saas",
+        "true": "audit_rights",
+        "pred": "audit_rights",
+        "conf": 0.8872,
+        "true_flags": [
+          "no audit rights"
+        ],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-014",
+        "type": "saas",
+        "true": "non_solicitation",
+        "pred": "non_solicitation",
+        "conf": 0.8594,
+        "true_flags": [
+          "duration over 12 months"
+        ],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-015",
+        "type": "msa",
+        "true": "limitation_of_liability",
+        "pred": "limitation_of_liability",
+        "conf": 0.9214,
+        "true_flags": [
+          "no carve-out for gross negligence"
+        ],
+        "pred_flags": [
+          "no carve-out for gross negligence"
+        ],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-015",
+        "type": "msa",
+        "true": "indemnification",
+        "pred": "indemnification",
+        "conf": 0.768,
+        "true_flags": [
+          "unilateral indemnification"
+        ],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-015",
+        "type": "msa",
+        "true": "confidentiality",
+        "pred": "confidentiality",
+        "conf": 0.798,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-015",
+        "type": "msa",
+        "true": "ip_ownership",
+        "pred": "ip_ownership",
+        "conf": 0.9219,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-015",
+        "type": "msa",
+        "true": "termination",
+        "pred": "termination",
+        "conf": 0.7959,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-015",
+        "type": "msa",
+        "true": "governing_law",
+        "pred": "governing_law",
+        "conf": 0.9707,
+        "true_flags": [
+          "foreign jurisdiction"
+        ],
+        "pred_flags": [
+          "foreign jurisdiction"
+        ],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-015",
+        "type": "msa",
+        "true": "dispute_resolution",
+        "pred": "dispute_resolution",
+        "conf": 0.9724,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-015",
+        "type": "msa",
+        "true": "payment_terms",
+        "pred": "payment_terms",
+        "conf": 0.9714,
+        "true_flags": [
+          "suspension for disputed invoices"
+        ],
+        "pred_flags": [
+          "suspension for disputed invoices"
+        ],
+        "outcome": "miscat"
+      },
+      {
+        "contract_id": "MSA-015",
+        "type": "msa",
+        "true": "data_privacy",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [
+          "breach notification over 72 hours"
+        ],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "MSA-015",
+        "type": "msa",
+        "true": "audit_rights",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [
+          "no audit rights"
+        ],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "MSA-015",
+        "type": "msa",
+        "true": "assignment",
+        "pred": "assignment",
+        "conf": 0.7895,
+        "true_flags": [
+          "no change-of-control protection"
+        ],
+        "pred_flags": [
+          "no change-of-control protection"
+        ],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "NDA-016",
+        "type": "nda",
+        "true": "confidentiality",
+        "pred": "confidentiality",
+        "conf": 0.8662,
+        "true_flags": [
+          "no time limit"
+        ],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "NDA-016",
+        "type": "nda",
+        "true": "ip_ownership",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [
+          "AI model trained on client data"
+        ],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "NDA-016",
+        "type": "nda",
+        "true": "governing_law",
+        "pred": "governing_law",
+        "conf": 0.8205,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "NDA-016",
+        "type": "nda",
+        "true": "non_solicitation",
+        "pred": "non_solicitation",
+        "conf": 0.9339,
+        "true_flags": [
+          "duration over 12 months"
+        ],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "NDA-016",
+        "type": "nda",
+        "true": "termination",
+        "pred": "termination",
+        "conf": 0.99,
+        "true_flags": [
+          "termination fee"
+        ],
+        "pred_flags": [
+          "termination fee"
+        ],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-017",
+        "type": "saas",
+        "true": "limitation_of_liability",
+        "pred": "limitation_of_liability",
+        "conf": 0.9299,
+        "true_flags": [
+          "cap below 12 months fees"
+        ],
+        "pred_flags": [
+          "cap below 12 months fees"
+        ],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-017",
+        "type": "saas",
+        "true": "indemnification",
+        "pred": "indemnification",
+        "conf": 0.8607,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-017",
+        "type": "saas",
+        "true": "ip_ownership",
+        "pred": "ip_ownership",
+        "conf": 0.8308,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-017",
+        "type": "saas",
+        "true": "data_privacy",
+        "pred": "data_privacy",
+        "conf": 0.9119,
+        "true_flags": [
+          "no DPA"
+        ],
+        "pred_flags": [
+          "no DPA"
+        ],
+        "outcome": "miscat"
+      },
+      {
+        "contract_id": "SAAS-017",
+        "type": "saas",
+        "true": "confidentiality",
+        "pred": "confidentiality",
+        "conf": 0.7622,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-017",
+        "type": "saas",
+        "true": "auto_renewal",
+        "pred": "auto_renewal",
+        "conf": 0.9029,
+        "true_flags": [
+          "short cancellation window"
+        ],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-017",
+        "type": "saas",
+        "true": "termination",
+        "pred": "termination",
+        "conf": 0.7868,
+        "true_flags": [
+          "cure period under 15 days"
+        ],
+        "pred_flags": [
+          "cure period under 15 days"
+        ],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-017",
+        "type": "saas",
+        "true": "dispute_resolution",
+        "pred": "dispute_resolution",
+        "conf": 0.9096,
+        "true_flags": [
+          "mandatory arbitration"
+        ],
+        "pred_flags": [
+          "mandatory arbitration"
+        ],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-017",
+        "type": "saas",
+        "true": "price_change",
+        "pred": "price_change",
+        "conf": 0.8471,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-017",
+        "type": "saas",
+        "true": "assignment",
+        "pred": "assignment",
+        "conf": 0.8289,
+        "true_flags": [
+          "no change-of-control protection"
+        ],
+        "pred_flags": [
+          "no change-of-control protection"
+        ],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-017",
+        "type": "saas",
+        "true": "governing_law",
+        "pred": "governing_law",
+        "conf": 0.7892,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-017",
+        "type": "saas",
+        "true": "payment_terms",
+        "pred": "payment_terms",
+        "conf": 0.8315,
+        "true_flags": [
+          "suspension for disputed invoices"
+        ],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-017",
+        "type": "saas",
+        "true": "audit_rights",
+        "pred": "audit_rights",
+        "conf": 0.9045,
+        "true_flags": [
+          "no audit rights"
+        ],
+        "pred_flags": [
+          "no audit rights"
+        ],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-017",
+        "type": "saas",
+        "true": "non_solicitation",
+        "pred": "non_solicitation",
+        "conf": 0.9435,
+        "true_flags": [
+          "duration over 12 months"
+        ],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-018",
+        "type": "msa",
+        "true": "limitation_of_liability",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "MSA-018",
+        "type": "msa",
+        "true": "indemnification",
+        "pred": "limitation_of_liability",
+        "conf": 0.9021,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "miscat"
+      },
+      {
+        "contract_id": "MSA-018",
+        "type": "msa",
+        "true": "confidentiality",
+        "pred": "confidentiality",
+        "conf": 0.9691,
+        "true_flags": [
+          "no time limit"
+        ],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-018",
+        "type": "msa",
+        "true": "ip_ownership",
+        "pred": "ip_ownership",
+        "conf": 0.99,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-018",
+        "type": "msa",
+        "true": "termination",
+        "pred": "termination",
+        "conf": 0.834,
+        "true_flags": [
+          "termination fee"
+        ],
+        "pred_flags": [
+          "termination fee"
+        ],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-018",
+        "type": "msa",
+        "true": "governing_law",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [
+          "foreign jurisdiction"
+        ],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "MSA-018",
+        "type": "msa",
+        "true": "dispute_resolution",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [
+          "mandatory arbitration"
+        ],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "MSA-018",
+        "type": "msa",
+        "true": "payment_terms",
+        "pred": "payment_terms",
+        "conf": 0.8435,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-018",
+        "type": "msa",
+        "true": "data_privacy",
+        "pred": "data_privacy",
+        "conf": 0.7448,
+        "true_flags": [
+          "no DPA"
+        ],
+        "pred_flags": [
+          "no DPA"
+        ],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-018",
+        "type": "msa",
+        "true": "audit_rights",
+        "pred": "audit_rights",
+        "conf": 0.9553,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-018",
+        "type": "msa",
+        "true": "assignment",
+        "pred": "assignment",
+        "conf": 0.964,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "NDA-019",
+        "type": "nda",
+        "true": "confidentiality",
+        "pred": "confidentiality",
+        "conf": 0.7906,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "NDA-019",
+        "type": "nda",
+        "true": "ip_ownership",
+        "pred": "ip_ownership",
+        "conf": 0.9094,
+        "true_flags": [
+          "vendor retains deliverables"
+        ],
+        "pred_flags": [
+          "vendor retains deliverables"
+        ],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "NDA-019",
+        "type": "nda",
+        "true": "governing_law",
+        "pred": "governing_law",
+        "conf": 0.9574,
+        "true_flags": [
+          "foreign jurisdiction"
+        ],
+        "pred_flags": [
+          "foreign jurisdiction"
+        ],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "NDA-019",
+        "type": "nda",
+        "true": "non_solicitation",
+        "pred": "non_solicitation",
+        "conf": 0.8781,
+        "true_flags": [
+          "duration over 12 months"
+        ],
+        "pred_flags": [
+          "duration over 12 months"
+        ],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "NDA-019",
+        "type": "nda",
+        "true": "termination",
+        "pred": "termination",
+        "conf": 0.9278,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-020",
+        "type": "saas",
+        "true": "limitation_of_liability",
+        "pred": "limitation_of_liability",
+        "conf": 0.874,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-020",
+        "type": "saas",
+        "true": "indemnification",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [
+          "unilateral indemnification"
+        ],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "SAAS-020",
+        "type": "saas",
+        "true": "ip_ownership",
+        "pred": "ip_ownership",
+        "conf": 0.7627,
+        "true_flags": [
+          "AI model trained on client data"
+        ],
+        "pred_flags": [
+          "AI model trained on client data"
+        ],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-020",
+        "type": "saas",
+        "true": "data_privacy",
+        "pred": "data_privacy",
+        "conf": 0.9439,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-020",
+        "type": "saas",
+        "true": "confidentiality",
+        "pred": "confidentiality",
+        "conf": 0.966,
+        "true_flags": [
+          "residuals clause"
+        ],
+        "pred_flags": [
+          "residuals clause"
+        ],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-020",
+        "type": "saas",
+        "true": "auto_renewal",
+        "pred": "auto_renewal",
+        "conf": 0.9188,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-020",
+        "type": "saas",
+        "true": "termination",
+        "pred": "dispute_resolution",
+        "conf": 0.7836,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "miscat"
+      },
+      {
+        "contract_id": "SAAS-020",
+        "type": "saas",
+        "true": "dispute_resolution",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "SAAS-020",
+        "type": "saas",
+        "true": "price_change",
+        "pred": "price_change",
+        "conf": 0.7999,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-020",
+        "type": "saas",
+        "true": "assignment",
+        "pred": "assignment",
+        "conf": 0.7696,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-020",
+        "type": "saas",
+        "true": "governing_law",
+        "pred": "governing_law",
+        "conf": 0.9216,
+        "true_flags": [
+          "foreign jurisdiction"
+        ],
+        "pred_flags": [
+          "foreign jurisdiction"
+        ],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-020",
+        "type": "saas",
+        "true": "payment_terms",
+        "pred": "payment_terms",
+        "conf": 0.9615,
+        "true_flags": [
+          "suspension for disputed invoices"
+        ],
+        "pred_flags": [
+          "suspension for disputed invoices"
+        ],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-020",
+        "type": "saas",
+        "true": "audit_rights",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [
+          "no audit rights"
+        ],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "SAAS-020",
+        "type": "saas",
+        "true": "non_solicitation",
+        "pred": "non_solicitation",
+        "conf": 0.894,
+        "true_flags": [
+          "duration over 12 months"
+        ],
+        "pred_flags": [
+          "duration over 12 months"
+        ],
+        "outcome": "tp"
+      }
+    ],
+    "ensemble_v1": [
+      {
+        "contract_id": "NDA-001",
+        "type": "nda",
+        "true": "confidentiality",
+        "pred": "ip_ownership",
+        "conf": 0.9597,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "miscat"
+      },
+      {
+        "contract_id": "NDA-001",
+        "type": "nda",
+        "true": "ip_ownership",
+        "pred": "ip_ownership",
+        "conf": 0.9089,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "NDA-001",
+        "type": "nda",
+        "true": "governing_law",
+        "pred": "governing_law",
+        "conf": 0.9718,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "NDA-001",
+        "type": "nda",
+        "true": "non_solicitation",
+        "pred": "non_solicitation",
+        "conf": 0.99,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "NDA-001",
+        "type": "nda",
+        "true": "termination",
+        "pred": "dispute_resolution",
+        "conf": 0.9013,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "miscat"
+      },
+      {
+        "contract_id": "SAAS-002",
+        "type": "saas",
+        "true": "limitation_of_liability",
+        "pred": "indemnification",
+        "conf": 0.9013,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "miscat"
+      },
+      {
+        "contract_id": "SAAS-002",
+        "type": "saas",
+        "true": "indemnification",
+        "pred": "indemnification",
+        "conf": 0.99,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-002",
+        "type": "saas",
+        "true": "ip_ownership",
+        "pred": "ip_ownership",
+        "conf": 0.9814,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-002",
+        "type": "saas",
+        "true": "data_privacy",
+        "pred": "data_privacy",
+        "conf": 0.8824,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-002",
+        "type": "saas",
+        "true": "confidentiality",
+        "pred": "confidentiality",
+        "conf": 0.9634,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-002",
+        "type": "saas",
+        "true": "auto_renewal",
+        "pred": "auto_renewal",
+        "conf": 0.8829,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-002",
+        "type": "saas",
+        "true": "termination",
+        "pred": "termination",
+        "conf": 0.8827,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-002",
+        "type": "saas",
+        "true": "dispute_resolution",
+        "pred": "dispute_resolution",
+        "conf": 0.9394,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-002",
+        "type": "saas",
+        "true": "price_change",
+        "pred": "price_change",
+        "conf": 0.7669,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-002",
+        "type": "saas",
+        "true": "assignment",
+        "pred": "assignment",
+        "conf": 0.782,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-002",
+        "type": "saas",
+        "true": "governing_law",
+        "pred": "governing_law",
+        "conf": 0.875,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-002",
+        "type": "saas",
+        "true": "payment_terms",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "SAAS-002",
+        "type": "saas",
+        "true": "audit_rights",
+        "pred": "audit_rights",
+        "conf": 0.839,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-002",
+        "type": "saas",
+        "true": "non_solicitation",
+        "pred": "non_solicitation",
+        "conf": 0.9451,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-003",
+        "type": "msa",
+        "true": "limitation_of_liability",
+        "pred": "limitation_of_liability",
+        "conf": 0.8474,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-003",
+        "type": "msa",
+        "true": "indemnification",
+        "pred": "indemnification",
+        "conf": 0.807,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-003",
+        "type": "msa",
+        "true": "confidentiality",
+        "pred": "confidentiality",
+        "conf": 0.99,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-003",
+        "type": "msa",
+        "true": "ip_ownership",
+        "pred": "ip_ownership",
+        "conf": 0.9019,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-003",
+        "type": "msa",
+        "true": "termination",
+        "pred": "termination",
+        "conf": 0.9254,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-003",
+        "type": "msa",
+        "true": "governing_law",
+        "pred": "governing_law",
+        "conf": 0.806,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-003",
+        "type": "msa",
+        "true": "dispute_resolution",
+        "pred": "dispute_resolution",
+        "conf": 0.8764,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-003",
+        "type": "msa",
+        "true": "payment_terms",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "MSA-003",
+        "type": "msa",
+        "true": "data_privacy",
+        "pred": "data_privacy",
+        "conf": 0.9289,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-003",
+        "type": "msa",
+        "true": "audit_rights",
+        "pred": "audit_rights",
+        "conf": 0.8279,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-003",
+        "type": "msa",
+        "true": "assignment",
+        "pred": "assignment",
+        "conf": 0.9501,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "NDA-004",
+        "type": "nda",
+        "true": "confidentiality",
+        "pred": "confidentiality",
+        "conf": 0.8719,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "NDA-004",
+        "type": "nda",
+        "true": "ip_ownership",
+        "pred": "ip_ownership",
+        "conf": 0.8967,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "NDA-004",
+        "type": "nda",
+        "true": "governing_law",
+        "pred": "governing_law",
+        "conf": 0.8719,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "NDA-004",
+        "type": "nda",
+        "true": "non_solicitation",
+        "pred": "non_solicitation",
+        "conf": 0.99,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "NDA-004",
+        "type": "nda",
+        "true": "termination",
+        "pred": "termination",
+        "conf": 0.9189,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-005",
+        "type": "saas",
+        "true": "limitation_of_liability",
+        "pred": "limitation_of_liability",
+        "conf": 0.8354,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-005",
+        "type": "saas",
+        "true": "indemnification",
+        "pred": "indemnification",
+        "conf": 0.9858,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-005",
+        "type": "saas",
+        "true": "ip_ownership",
+        "pred": "ip_ownership",
+        "conf": 0.8223,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-005",
+        "type": "saas",
+        "true": "data_privacy",
+        "pred": "data_privacy",
+        "conf": 0.9367,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-005",
+        "type": "saas",
+        "true": "confidentiality",
+        "pred": "confidentiality",
+        "conf": 0.7632,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-005",
+        "type": "saas",
+        "true": "auto_renewal",
+        "pred": "auto_renewal",
+        "conf": 0.8137,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-005",
+        "type": "saas",
+        "true": "termination",
+        "pred": "termination",
+        "conf": 0.9357,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-005",
+        "type": "saas",
+        "true": "dispute_resolution",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "SAAS-005",
+        "type": "saas",
+        "true": "price_change",
+        "pred": "price_change",
+        "conf": 0.9791,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-005",
+        "type": "saas",
+        "true": "assignment",
+        "pred": "assignment",
+        "conf": 0.9337,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-005",
+        "type": "saas",
+        "true": "governing_law",
+        "pred": "governing_law",
+        "conf": 0.9107,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-005",
+        "type": "saas",
+        "true": "payment_terms",
+        "pred": "payment_terms",
+        "conf": 0.8959,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-005",
+        "type": "saas",
+        "true": "audit_rights",
+        "pred": "audit_rights",
+        "conf": 0.8017,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-005",
+        "type": "saas",
+        "true": "non_solicitation",
+        "pred": "non_solicitation",
+        "conf": 0.8624,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-006",
+        "type": "msa",
+        "true": "limitation_of_liability",
+        "pred": "limitation_of_liability",
+        "conf": 0.8831,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-006",
+        "type": "msa",
+        "true": "indemnification",
+        "pred": "indemnification",
+        "conf": 0.99,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-006",
+        "type": "msa",
+        "true": "confidentiality",
+        "pred": "confidentiality",
+        "conf": 0.9475,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-006",
+        "type": "msa",
+        "true": "ip_ownership",
+        "pred": "ip_ownership",
+        "conf": 0.779,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-006",
+        "type": "msa",
+        "true": "termination",
+        "pred": "termination",
+        "conf": 0.9459,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-006",
+        "type": "msa",
+        "true": "governing_law",
+        "pred": "governing_law",
+        "conf": 0.8892,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-006",
+        "type": "msa",
+        "true": "dispute_resolution",
+        "pred": "dispute_resolution",
+        "conf": 0.8658,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-006",
+        "type": "msa",
+        "true": "payment_terms",
+        "pred": "payment_terms",
+        "conf": 0.9689,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-006",
+        "type": "msa",
+        "true": "data_privacy",
+        "pred": "data_privacy",
+        "conf": 0.99,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-006",
+        "type": "msa",
+        "true": "audit_rights",
+        "pred": "audit_rights",
+        "conf": 0.99,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-006",
+        "type": "msa",
+        "true": "assignment",
+        "pred": "assignment",
+        "conf": 0.8529,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "NDA-007",
+        "type": "nda",
+        "true": "confidentiality",
+        "pred": "ip_ownership",
+        "conf": 0.8953,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "miscat"
+      },
+      {
+        "contract_id": "NDA-007",
+        "type": "nda",
+        "true": "ip_ownership",
+        "pred": "confidentiality",
+        "conf": 0.9465,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "miscat"
+      },
+      {
+        "contract_id": "NDA-007",
+        "type": "nda",
+        "true": "governing_law",
+        "pred": "governing_law",
+        "conf": 0.99,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "NDA-007",
+        "type": "nda",
+        "true": "non_solicitation",
+        "pred": "non_solicitation",
+        "conf": 0.8817,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "NDA-007",
+        "type": "nda",
+        "true": "termination",
+        "pred": "termination",
+        "conf": 0.9051,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-008",
+        "type": "saas",
+        "true": "limitation_of_liability",
+        "pred": "limitation_of_liability",
+        "conf": 0.8315,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-008",
+        "type": "saas",
+        "true": "indemnification",
+        "pred": "indemnification",
+        "conf": 0.8243,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-008",
+        "type": "saas",
+        "true": "ip_ownership",
+        "pred": "ip_ownership",
+        "conf": 0.985,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-008",
+        "type": "saas",
+        "true": "data_privacy",
+        "pred": "data_privacy",
+        "conf": 0.99,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-008",
+        "type": "saas",
+        "true": "confidentiality",
+        "pred": "confidentiality",
+        "conf": 0.9142,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-008",
+        "type": "saas",
+        "true": "auto_renewal",
+        "pred": "auto_renewal",
+        "conf": 0.99,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-008",
+        "type": "saas",
+        "true": "termination",
+        "pred": "termination",
+        "conf": 0.9489,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-008",
+        "type": "saas",
+        "true": "dispute_resolution",
+        "pred": "dispute_resolution",
+        "conf": 0.8684,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-008",
+        "type": "saas",
+        "true": "price_change",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "SAAS-008",
+        "type": "saas",
+        "true": "assignment",
+        "pred": "assignment",
+        "conf": 0.9489,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-008",
+        "type": "saas",
+        "true": "governing_law",
+        "pred": "governing_law",
+        "conf": 0.99,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-008",
+        "type": "saas",
+        "true": "payment_terms",
+        "pred": "payment_terms",
+        "conf": 0.9171,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-008",
+        "type": "saas",
+        "true": "audit_rights",
+        "pred": "audit_rights",
+        "conf": 0.99,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-008",
+        "type": "saas",
+        "true": "non_solicitation",
+        "pred": "non_solicitation",
+        "conf": 0.7104,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-009",
+        "type": "msa",
+        "true": "limitation_of_liability",
+        "pred": "limitation_of_liability",
+        "conf": 0.9858,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-009",
+        "type": "msa",
+        "true": "indemnification",
+        "pred": "indemnification",
+        "conf": 0.927,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-009",
+        "type": "msa",
+        "true": "confidentiality",
+        "pred": "confidentiality",
+        "conf": 0.8961,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-009",
+        "type": "msa",
+        "true": "ip_ownership",
+        "pred": "ip_ownership",
+        "conf": 0.9273,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-009",
+        "type": "msa",
+        "true": "termination",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "MSA-009",
+        "type": "msa",
+        "true": "governing_law",
+        "pred": "governing_law",
+        "conf": 0.761,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-009",
+        "type": "msa",
+        "true": "dispute_resolution",
+        "pred": "dispute_resolution",
+        "conf": 0.9024,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-009",
+        "type": "msa",
+        "true": "payment_terms",
+        "pred": "payment_terms",
+        "conf": 0.9486,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-009",
+        "type": "msa",
+        "true": "data_privacy",
+        "pred": "data_privacy",
+        "conf": 0.99,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-009",
+        "type": "msa",
+        "true": "audit_rights",
+        "pred": "audit_rights",
+        "conf": 0.8785,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-009",
+        "type": "msa",
+        "true": "assignment",
+        "pred": "assignment",
+        "conf": 0.8553,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "NDA-010",
+        "type": "nda",
+        "true": "confidentiality",
+        "pred": "confidentiality",
+        "conf": 0.8799,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "NDA-010",
+        "type": "nda",
+        "true": "ip_ownership",
+        "pred": "ip_ownership",
+        "conf": 0.99,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "NDA-010",
+        "type": "nda",
+        "true": "governing_law",
+        "pred": "governing_law",
+        "conf": 0.9463,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "NDA-010",
+        "type": "nda",
+        "true": "non_solicitation",
+        "pred": "non_solicitation",
+        "conf": 0.8776,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "NDA-010",
+        "type": "nda",
+        "true": "termination",
+        "pred": "termination",
+        "conf": 0.9611,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-011",
+        "type": "saas",
+        "true": "limitation_of_liability",
+        "pred": "limitation_of_liability",
+        "conf": 0.9278,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-011",
+        "type": "saas",
+        "true": "indemnification",
+        "pred": "indemnification",
+        "conf": 0.99,
+        "true_flags": [
+          "uncapped indemnification"
+        ],
+        "pred_flags": [
+          "uncapped indemnification"
+        ],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-011",
+        "type": "saas",
+        "true": "ip_ownership",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [
+          "vendor retains deliverables"
+        ],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "SAAS-011",
+        "type": "saas",
+        "true": "data_privacy",
+        "pred": "data_privacy",
+        "conf": 0.8638,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-011",
+        "type": "saas",
+        "true": "confidentiality",
+        "pred": "confidentiality",
+        "conf": 0.8938,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-011",
+        "type": "saas",
+        "true": "auto_renewal",
+        "pred": "auto_renewal",
+        "conf": 0.8886,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-011",
+        "type": "saas",
+        "true": "termination",
+        "pred": "termination",
+        "conf": 0.8029,
+        "true_flags": [
+          "cure period under 15 days"
+        ],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-011",
+        "type": "saas",
+        "true": "dispute_resolution",
+        "pred": "dispute_resolution",
+        "conf": 0.9437,
+        "true_flags": [
+          "mandatory arbitration"
+        ],
+        "pred_flags": [
+          "mandatory arbitration"
+        ],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-011",
+        "type": "saas",
+        "true": "price_change",
+        "pred": "price_change",
+        "conf": 0.9409,
+        "true_flags": [
+          "uncapped price increase"
+        ],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-011",
+        "type": "saas",
+        "true": "assignment",
+        "pred": "assignment",
+        "conf": 0.9204,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-011",
+        "type": "saas",
+        "true": "governing_law",
+        "pred": "governing_law",
+        "conf": 0.9012,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-011",
+        "type": "saas",
+        "true": "payment_terms",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "SAAS-011",
+        "type": "saas",
+        "true": "audit_rights",
+        "pred": "audit_rights",
+        "conf": 0.8068,
+        "true_flags": [
+          "no audit rights"
+        ],
+        "pred_flags": [
+          "no audit rights"
+        ],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-011",
+        "type": "saas",
+        "true": "non_solicitation",
+        "pred": "non_solicitation",
+        "conf": 0.8863,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-012",
+        "type": "msa",
+        "true": "limitation_of_liability",
+        "pred": "limitation_of_liability",
+        "conf": 0.8926,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-012",
+        "type": "msa",
+        "true": "indemnification",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [
+          "unilateral indemnification"
+        ],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "MSA-012",
+        "type": "msa",
+        "true": "confidentiality",
+        "pred": "confidentiality",
+        "conf": 0.8558,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-012",
+        "type": "msa",
+        "true": "ip_ownership",
+        "pred": "ip_ownership",
+        "conf": 0.9071,
+        "true_flags": [
+          "vendor retains deliverables"
+        ],
+        "pred_flags": [
+          "vendor retains deliverables"
+        ],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-012",
+        "type": "msa",
+        "true": "termination",
+        "pred": "termination",
+        "conf": 0.9523,
+        "true_flags": [
+          "cure period under 15 days"
+        ],
+        "pred_flags": [
+          "cure period under 15 days"
+        ],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-012",
+        "type": "msa",
+        "true": "governing_law",
+        "pred": "governing_law",
+        "conf": 0.99,
+        "true_flags": [
+          "foreign jurisdiction"
+        ],
+        "pred_flags": [
+          "foreign jurisdiction"
+        ],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-012",
+        "type": "msa",
+        "true": "dispute_resolution",
+        "pred": "dispute_resolution",
+        "conf": 0.934,
+        "true_flags": [
+          "class action waiver"
+        ],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-012",
+        "type": "msa",
+        "true": "payment_terms",
+        "pred": "payment_terms",
+        "conf": 0.9406,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-012",
+        "type": "msa",
+        "true": "data_privacy",
+        "pred": "data_privacy",
+        "conf": 0.914,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-012",
+        "type": "msa",
+        "true": "audit_rights",
+        "pred": "audit_rights",
+        "conf": 0.7665,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-012",
+        "type": "msa",
+        "true": "assignment",
+        "pred": "assignment",
+        "conf": 0.9179,
+        "true_flags": [
+          "no change-of-control protection"
+        ],
+        "pred_flags": [
+          "no change-of-control protection"
+        ],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "NDA-013",
+        "type": "nda",
+        "true": "confidentiality",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [
+          "residuals clause"
+        ],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "NDA-013",
+        "type": "nda",
+        "true": "ip_ownership",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "NDA-013",
+        "type": "nda",
+        "true": "governing_law",
+        "pred": "governing_law",
+        "conf": 0.9248,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "NDA-013",
+        "type": "nda",
+        "true": "non_solicitation",
+        "pred": "non_solicitation",
+        "conf": 0.99,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "NDA-013",
+        "type": "nda",
+        "true": "termination",
+        "pred": "termination",
+        "conf": 0.9046,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-014",
+        "type": "saas",
+        "true": "limitation_of_liability",
+        "pred": "limitation_of_liability",
+        "conf": 0.9441,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-014",
+        "type": "saas",
+        "true": "indemnification",
+        "pred": "indemnification",
+        "conf": 0.9172,
+        "true_flags": [
+          "unilateral indemnification"
+        ],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-014",
+        "type": "saas",
+        "true": "ip_ownership",
+        "pred": "confidentiality",
+        "conf": 0.8265,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "miscat"
+      },
+      {
+        "contract_id": "SAAS-014",
+        "type": "saas",
+        "true": "data_privacy",
+        "pred": "data_privacy",
+        "conf": 0.99,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-014",
+        "type": "saas",
+        "true": "confidentiality",
+        "pred": "confidentiality",
+        "conf": 0.9802,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-014",
+        "type": "saas",
+        "true": "auto_renewal",
+        "pred": "auto_renewal",
+        "conf": 0.9833,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-014",
+        "type": "saas",
+        "true": "termination",
+        "pred": "termination",
+        "conf": 0.8472,
+        "true_flags": [
+          "cure period under 15 days"
+        ],
+        "pred_flags": [
+          "cure period under 15 days"
+        ],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-014",
+        "type": "saas",
+        "true": "dispute_resolution",
+        "pred": "dispute_resolution",
+        "conf": 0.99,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-014",
+        "type": "saas",
+        "true": "price_change",
+        "pred": "price_change",
+        "conf": 0.8079,
+        "true_flags": [
+          "less than 30 days notice"
+        ],
+        "pred_flags": [
+          "less than 30 days notice"
+        ],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-014",
+        "type": "saas",
+        "true": "assignment",
+        "pred": "assignment",
+        "conf": 0.9669,
+        "true_flags": [
+          "no change-of-control protection"
+        ],
+        "pred_flags": [
+          "no change-of-control protection"
+        ],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-014",
+        "type": "saas",
+        "true": "governing_law",
+        "pred": "governing_law",
+        "conf": 0.99,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-014",
+        "type": "saas",
+        "true": "payment_terms",
+        "pred": "payment_terms",
+        "conf": 0.8408,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "miscat"
+      },
+      {
+        "contract_id": "SAAS-014",
+        "type": "saas",
+        "true": "audit_rights",
+        "pred": "audit_rights",
+        "conf": 0.8747,
+        "true_flags": [
+          "no audit rights"
+        ],
+        "pred_flags": [
+          "no audit rights"
+        ],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-014",
+        "type": "saas",
+        "true": "non_solicitation",
+        "pred": "non_solicitation",
+        "conf": 0.928,
+        "true_flags": [
+          "duration over 12 months"
+        ],
+        "pred_flags": [
+          "duration over 12 months"
+        ],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-014",
+        "type": "saas",
+        "true": null,
+        "pred": "indemnification",
+        "conf": 0.5855,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "fp"
+      },
+      {
+        "contract_id": "MSA-015",
+        "type": "msa",
+        "true": "limitation_of_liability",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [
+          "no carve-out for gross negligence"
+        ],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "MSA-015",
+        "type": "msa",
+        "true": "indemnification",
+        "pred": "indemnification",
+        "conf": 0.8797,
+        "true_flags": [
+          "unilateral indemnification"
+        ],
+        "pred_flags": [
+          "unilateral indemnification"
+        ],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-015",
+        "type": "msa",
+        "true": "confidentiality",
+        "pred": "confidentiality",
+        "conf": 0.9207,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-015",
+        "type": "msa",
+        "true": "ip_ownership",
+        "pred": "confidentiality",
+        "conf": 0.8908,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "miscat"
+      },
+      {
+        "contract_id": "MSA-015",
+        "type": "msa",
+        "true": "termination",
+        "pred": "termination",
+        "conf": 0.9719,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-015",
+        "type": "msa",
+        "true": "governing_law",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [
+          "foreign jurisdiction"
+        ],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "MSA-015",
+        "type": "msa",
+        "true": "dispute_resolution",
+        "pred": "dispute_resolution",
+        "conf": 0.8222,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-015",
+        "type": "msa",
+        "true": "payment_terms",
+        "pred": "payment_terms",
+        "conf": 0.9629,
+        "true_flags": [
+          "suspension for disputed invoices"
+        ],
+        "pred_flags": [
+          "suspension for disputed invoices"
+        ],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-015",
+        "type": "msa",
+        "true": "data_privacy",
+        "pred": "data_privacy",
+        "conf": 0.8468,
+        "true_flags": [
+          "breach notification over 72 hours"
+        ],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-015",
+        "type": "msa",
+        "true": "audit_rights",
+        "pred": "audit_rights",
+        "conf": 0.9696,
+        "true_flags": [
+          "no audit rights"
+        ],
+        "pred_flags": [
+          "no audit rights"
+        ],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-015",
+        "type": "msa",
+        "true": "assignment",
+        "pred": "assignment",
+        "conf": 0.9071,
+        "true_flags": [
+          "no change-of-control protection"
+        ],
+        "pred_flags": [
+          "no change-of-control protection"
+        ],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "NDA-016",
+        "type": "nda",
+        "true": "confidentiality",
+        "pred": "confidentiality",
+        "conf": 0.8889,
+        "true_flags": [
+          "no time limit"
+        ],
+        "pred_flags": [
+          "no time limit"
+        ],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "NDA-016",
+        "type": "nda",
+        "true": "ip_ownership",
+        "pred": "ip_ownership",
+        "conf": 0.8492,
+        "true_flags": [
+          "AI model trained on client data"
+        ],
+        "pred_flags": [
+          "AI model trained on client data"
+        ],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "NDA-016",
+        "type": "nda",
+        "true": "governing_law",
+        "pred": "governing_law",
+        "conf": 0.8915,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "NDA-016",
+        "type": "nda",
+        "true": "non_solicitation",
+        "pred": "non_solicitation",
+        "conf": 0.9645,
+        "true_flags": [
+          "duration over 12 months"
+        ],
+        "pred_flags": [
+          "duration over 12 months"
+        ],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "NDA-016",
+        "type": "nda",
+        "true": "termination",
+        "pred": "termination",
+        "conf": 0.99,
+        "true_flags": [
+          "termination fee"
+        ],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-017",
+        "type": "saas",
+        "true": "limitation_of_liability",
+        "pred": "limitation_of_liability",
+        "conf": 0.9621,
+        "true_flags": [
+          "cap below 12 months fees"
+        ],
+        "pred_flags": [
+          "cap below 12 months fees"
+        ],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-017",
+        "type": "saas",
+        "true": "indemnification",
+        "pred": "indemnification",
+        "conf": 0.99,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-017",
+        "type": "saas",
+        "true": "ip_ownership",
+        "pred": "ip_ownership",
+        "conf": 0.99,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-017",
+        "type": "saas",
+        "true": "data_privacy",
+        "pred": "data_privacy",
+        "conf": 0.894,
+        "true_flags": [
+          "no DPA"
+        ],
+        "pred_flags": [
+          "no DPA"
+        ],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-017",
+        "type": "saas",
+        "true": "confidentiality",
+        "pred": "confidentiality",
+        "conf": 0.9035,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-017",
+        "type": "saas",
+        "true": "auto_renewal",
+        "pred": "auto_renewal",
+        "conf": 0.8048,
+        "true_flags": [
+          "short cancellation window"
+        ],
+        "pred_flags": [
+          "short cancellation window"
+        ],
+        "outcome": "miscat"
+      },
+      {
+        "contract_id": "SAAS-017",
+        "type": "saas",
+        "true": "termination",
+        "pred": "termination",
+        "conf": 0.99,
+        "true_flags": [
+          "cure period under 15 days"
+        ],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-017",
+        "type": "saas",
+        "true": "dispute_resolution",
+        "pred": "dispute_resolution",
+        "conf": 0.99,
+        "true_flags": [
+          "mandatory arbitration"
+        ],
+        "pred_flags": [
+          "mandatory arbitration"
+        ],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-017",
+        "type": "saas",
+        "true": "price_change",
+        "pred": null,
+        "conf": 0.0,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "fn"
+      },
+      {
+        "contract_id": "SAAS-017",
+        "type": "saas",
+        "true": "assignment",
+        "pred": "assignment",
+        "conf": 0.8506,
+        "true_flags": [
+          "no change-of-control protection"
+        ],
+        "pred_flags": [
+          "no change-of-control protection"
+        ],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-017",
+        "type": "saas",
+        "true": "governing_law",
+        "pred": "governing_law",
+        "conf": 0.9694,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-017",
+        "type": "saas",
+        "true": "payment_terms",
+        "pred": "payment_terms",
+        "conf": 0.99,
+        "true_flags": [
+          "suspension for disputed invoices"
+        ],
+        "pred_flags": [
+          "suspension for disputed invoices"
+        ],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-017",
+        "type": "saas",
+        "true": "audit_rights",
+        "pred": "audit_rights",
+        "conf": 0.9381,
+        "true_flags": [
+          "no audit rights"
+        ],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-017",
+        "type": "saas",
+        "true": "non_solicitation",
+        "pred": "non_solicitation",
+        "conf": 0.9878,
+        "true_flags": [
+          "duration over 12 months"
+        ],
+        "pred_flags": [
+          "duration over 12 months"
+        ],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-018",
+        "type": "msa",
+        "true": "limitation_of_liability",
+        "pred": "limitation_of_liability",
+        "conf": 0.934,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-018",
+        "type": "msa",
+        "true": "indemnification",
+        "pred": "indemnification",
+        "conf": 0.8227,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-018",
+        "type": "msa",
+        "true": "confidentiality",
+        "pred": "confidentiality",
+        "conf": 0.99,
+        "true_flags": [
+          "no time limit"
+        ],
+        "pred_flags": [
+          "no time limit"
+        ],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-018",
+        "type": "msa",
+        "true": "ip_ownership",
+        "pred": "ip_ownership",
+        "conf": 0.99,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-018",
+        "type": "msa",
+        "true": "termination",
+        "pred": "termination",
+        "conf": 0.9788,
+        "true_flags": [
+          "termination fee"
+        ],
+        "pred_flags": [
+          "termination fee"
+        ],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-018",
+        "type": "msa",
+        "true": "governing_law",
+        "pred": "governing_law",
+        "conf": 0.8436,
+        "true_flags": [
+          "foreign jurisdiction"
+        ],
+        "pred_flags": [
+          "foreign jurisdiction"
+        ],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-018",
+        "type": "msa",
+        "true": "dispute_resolution",
+        "pred": "dispute_resolution",
+        "conf": 0.8599,
+        "true_flags": [
+          "mandatory arbitration"
+        ],
+        "pred_flags": [
+          "mandatory arbitration"
+        ],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-018",
+        "type": "msa",
+        "true": "payment_terms",
+        "pred": "payment_terms",
+        "conf": 0.8296,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-018",
+        "type": "msa",
+        "true": "data_privacy",
+        "pred": "data_privacy",
+        "conf": 0.9816,
+        "true_flags": [
+          "no DPA"
+        ],
+        "pred_flags": [
+          "no DPA"
+        ],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-018",
+        "type": "msa",
+        "true": "audit_rights",
+        "pred": "audit_rights",
+        "conf": 0.99,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "MSA-018",
+        "type": "msa",
+        "true": "assignment",
+        "pred": "assignment",
+        "conf": 0.954,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "NDA-019",
+        "type": "nda",
+        "true": "confidentiality",
+        "pred": "confidentiality",
+        "conf": 0.99,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "NDA-019",
+        "type": "nda",
+        "true": "ip_ownership",
+        "pred": "ip_ownership",
+        "conf": 0.8506,
+        "true_flags": [
+          "vendor retains deliverables"
+        ],
+        "pred_flags": [
+          "vendor retains deliverables"
+        ],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "NDA-019",
+        "type": "nda",
+        "true": "governing_law",
+        "pred": "governing_law",
+        "conf": 0.9317,
+        "true_flags": [
+          "foreign jurisdiction"
+        ],
+        "pred_flags": [
+          "foreign jurisdiction"
+        ],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "NDA-019",
+        "type": "nda",
+        "true": "non_solicitation",
+        "pred": "non_solicitation",
+        "conf": 0.8104,
+        "true_flags": [
+          "duration over 12 months"
+        ],
+        "pred_flags": [
+          "duration over 12 months"
+        ],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "NDA-019",
+        "type": "nda",
+        "true": "termination",
+        "pred": "termination",
+        "conf": 0.8583,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-020",
+        "type": "saas",
+        "true": "limitation_of_liability",
+        "pred": "limitation_of_liability",
+        "conf": 0.99,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-020",
+        "type": "saas",
+        "true": "indemnification",
+        "pred": "indemnification",
+        "conf": 0.9008,
+        "true_flags": [
+          "unilateral indemnification"
+        ],
+        "pred_flags": [
+          "unilateral indemnification"
+        ],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-020",
+        "type": "saas",
+        "true": "ip_ownership",
+        "pred": "ip_ownership",
+        "conf": 0.99,
+        "true_flags": [
+          "AI model trained on client data"
+        ],
+        "pred_flags": [
+          "AI model trained on client data"
+        ],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-020",
+        "type": "saas",
+        "true": "data_privacy",
+        "pred": "data_privacy",
+        "conf": 0.963,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-020",
+        "type": "saas",
+        "true": "confidentiality",
+        "pred": "confidentiality",
+        "conf": 0.99,
+        "true_flags": [
+          "residuals clause"
+        ],
+        "pred_flags": [
+          "residuals clause"
+        ],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-020",
+        "type": "saas",
+        "true": "auto_renewal",
+        "pred": "auto_renewal",
+        "conf": 0.9275,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-020",
+        "type": "saas",
+        "true": "termination",
+        "pred": "termination",
+        "conf": 0.8075,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-020",
+        "type": "saas",
+        "true": "dispute_resolution",
+        "pred": "dispute_resolution",
+        "conf": 0.9172,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-020",
+        "type": "saas",
+        "true": "price_change",
+        "pred": "price_change",
+        "conf": 0.843,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-020",
+        "type": "saas",
+        "true": "assignment",
+        "pred": "assignment",
+        "conf": 0.99,
+        "true_flags": [],
+        "pred_flags": [],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-020",
+        "type": "saas",
+        "true": "governing_law",
+        "pred": "governing_law",
+        "conf": 0.9234,
+        "true_flags": [
+          "foreign jurisdiction"
+        ],
+        "pred_flags": [
+          "foreign jurisdiction"
+        ],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-020",
+        "type": "saas",
+        "true": "payment_terms",
+        "pred": "payment_terms",
+        "conf": 0.909,
+        "true_flags": [
+          "suspension for disputed invoices"
+        ],
+        "pred_flags": [
+          "suspension for disputed invoices"
+        ],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-020",
+        "type": "saas",
+        "true": "audit_rights",
+        "pred": "audit_rights",
+        "conf": 0.9101,
+        "true_flags": [
+          "no audit rights"
+        ],
+        "pred_flags": [
+          "no audit rights"
+        ],
+        "outcome": "tp"
+      },
+      {
+        "contract_id": "SAAS-020",
+        "type": "saas",
+        "true": "non_solicitation",
+        "pred": "non_solicitation",
+        "conf": 0.9792,
+        "true_flags": [
+          "duration over 12 months"
+        ],
+        "pred_flags": [
+          "duration over 12 months"
+        ],
+        "outcome": "tp"
+      }
+    ]
+  },
+  "metrics": {
+    "gpt4_zeroshot": {
+      "per_clause": {
+        "limitation_of_liability": {
+          "name": "Limitation of Liability",
+          "risk": "high",
+          "precision": 1.0,
+          "recall": 0.8462,
+          "f1": 0.9167,
+          "tp": 11,
+          "fp": 0,
+          "fn": 2,
+          "support": 13
+        },
+        "indemnification": {
+          "name": "Indemnification",
+          "risk": "high",
+          "precision": 0.8889,
+          "recall": 0.6154,
+          "f1": 0.7273,
+          "tp": 8,
+          "fp": 1,
+          "fn": 5,
+          "support": 13
+        },
+        "ip_ownership": {
+          "name": "IP Ownership",
+          "risk": "high",
+          "precision": 0.9375,
+          "recall": 0.75,
+          "f1": 0.8333,
+          "tp": 15,
+          "fp": 1,
+          "fn": 5,
+          "support": 20
+        },
+        "data_privacy": {
+          "name": "Data Privacy & Security",
+          "risk": "high",
+          "precision": 0.8,
+          "recall": 0.6154,
+          "f1": 0.6957,
+          "tp": 8,
+          "fp": 2,
+          "fn": 5,
+          "support": 13
+        },
+        "confidentiality": {
+          "name": "Confidentiality",
+          "risk": "high",
+          "precision": 1.0,
+          "recall": 0.7,
+          "f1": 0.8235,
+          "tp": 14,
+          "fp": 0,
+          "fn": 6,
+          "support": 20
+        },
+        "auto_renewal": {
+          "name": "Auto-Renewal",
+          "risk": "medium",
+          "precision": 1.0,
+          "recall": 0.4286,
+          "f1": 0.6,
+          "tp": 3,
+          "fp": 0,
+          "fn": 4,
+          "support": 7
+        },
+        "termination": {
+          "name": "Termination",
+          "risk": "medium",
+          "precision": 1.0,
+          "recall": 0.75,
+          "f1": 0.8571,
+          "tp": 15,
+          "fp": 0,
+          "fn": 5,
+          "support": 20
+        },
+        "dispute_resolution": {
+          "name": "Dispute Resolution",
+          "risk": "medium",
+          "precision": 1.0,
+          "recall": 0.5385,
+          "f1": 0.7,
+          "tp": 7,
+          "fp": 0,
+          "fn": 6,
+          "support": 13
+        },
+        "price_change": {
+          "name": "Price Change",
+          "risk": "medium",
+          "precision": 1.0,
+          "recall": 0.2857,
+          "f1": 0.4444,
+          "tp": 2,
+          "fp": 0,
+          "fn": 5,
+          "support": 7
+        },
+        "assignment": {
+          "name": "Assignment",
+          "risk": "medium",
+          "precision": 0.8889,
+          "recall": 0.6154,
+          "f1": 0.7273,
+          "tp": 8,
+          "fp": 1,
+          "fn": 5,
+          "support": 13
+        },
+        "governing_law": {
+          "name": "Governing Law",
+          "risk": "low",
+          "precision": 1.0,
+          "recall": 0.7,
+          "f1": 0.8235,
+          "tp": 14,
+          "fp": 0,
+          "fn": 6,
+          "support": 20
+        },
+        "payment_terms": {
+          "name": "Payment Terms",
+          "risk": "low",
+          "precision": 0.875,
+          "recall": 0.5385,
+          "f1": 0.6667,
+          "tp": 7,
+          "fp": 1,
+          "fn": 6,
+          "support": 13
+        },
+        "audit_rights": {
+          "name": "Audit Rights",
+          "risk": "low",
+          "precision": 1.0,
+          "recall": 0.7692,
+          "f1": 0.8696,
+          "tp": 10,
+          "fp": 0,
+          "fn": 3,
+          "support": 13
+        },
+        "non_solicitation": {
+          "name": "Non-Solicitation",
+          "risk": "low",
+          "precision": 1.0,
+          "recall": 0.5714,
+          "f1": 0.7273,
+          "tp": 8,
+          "fp": 0,
+          "fn": 6,
+          "support": 14
+        }
+      },
+      "macro_precision": 0.9565,
+      "macro_recall": 0.6232,
+      "macro_f1": 0.7437,
+      "risk_weighted_f1": 0.7753,
+      "red_flag_precision": 1.0,
+      "red_flag_recall": 0.6667,
+      "red_flag_f1": 0.8,
+      "ece": 0.1767,
+      "total_tp": 130,
+      "total_fp": 6,
+      "total_fn": 69
+    },
+    "claude_fewshot": {
+      "per_clause": {
+        "limitation_of_liability": {
+          "name": "Limitation of Liability",
+          "risk": "high",
+          "precision": 0.9167,
+          "recall": 0.8462,
+          "f1": 0.88,
+          "tp": 11,
+          "fp": 1,
+          "fn": 2,
+          "support": 13
+        },
+        "indemnification": {
+          "name": "Indemnification",
+          "risk": "high",
+          "precision": 1.0,
+          "recall": 0.8462,
+          "f1": 0.9167,
+          "tp": 11,
+          "fp": 0,
+          "fn": 2,
+          "support": 13
+        },
+        "ip_ownership": {
+          "name": "IP Ownership",
+          "risk": "high",
+          "precision": 0.9,
+          "recall": 0.9,
+          "f1": 0.9,
+          "tp": 18,
+          "fp": 2,
+          "fn": 2,
+          "support": 20
+        },
+        "data_privacy": {
+          "name": "Data Privacy & Security",
+          "risk": "high",
+          "precision": 0.8333,
+          "recall": 0.7692,
+          "f1": 0.8,
+          "tp": 10,
+          "fp": 2,
+          "fn": 3,
+          "support": 13
+        },
+        "confidentiality": {
+          "name": "Confidentiality",
+          "risk": "high",
+          "precision": 1.0,
+          "recall": 0.75,
+          "f1": 0.8571,
+          "tp": 15,
+          "fp": 0,
+          "fn": 5,
+          "support": 20
+        },
+        "auto_renewal": {
+          "name": "Auto-Renewal",
+          "risk": "medium",
+          "precision": 1.0,
+          "recall": 0.8571,
+          "f1": 0.9231,
+          "tp": 6,
+          "fp": 0,
+          "fn": 1,
+          "support": 7
+        },
+        "termination": {
+          "name": "Termination",
+          "risk": "medium",
+          "precision": 1.0,
+          "recall": 0.9,
+          "f1": 0.9474,
+          "tp": 18,
+          "fp": 0,
+          "fn": 2,
+          "support": 20
+        },
+        "dispute_resolution": {
+          "name": "Dispute Resolution",
+          "risk": "medium",
+          "precision": 0.8333,
+          "recall": 0.7692,
+          "f1": 0.8,
+          "tp": 10,
+          "fp": 2,
+          "fn": 3,
+          "support": 13
+        },
+        "price_change": {
+          "name": "Price Change",
+          "risk": "medium",
+          "precision": 1.0,
+          "recall": 0.7143,
+          "f1": 0.8333,
+          "tp": 5,
+          "fp": 0,
+          "fn": 2,
+          "support": 7
+        },
+        "assignment": {
+          "name": "Assignment",
+          "risk": "medium",
+          "precision": 1.0,
+          "recall": 0.6154,
+          "f1": 0.7619,
+          "tp": 8,
+          "fp": 0,
+          "fn": 5,
+          "support": 13
+        },
+        "governing_law": {
+          "name": "Governing Law",
+          "risk": "low",
+          "precision": 0.8824,
+          "recall": 0.75,
+          "f1": 0.8108,
+          "tp": 15,
+          "fp": 2,
+          "fn": 5,
+          "support": 20
+        },
+        "payment_terms": {
+          "name": "Payment Terms",
+          "risk": "low",
+          "precision": 0.9167,
+          "recall": 0.8462,
+          "f1": 0.88,
+          "tp": 11,
+          "fp": 1,
+          "fn": 2,
+          "support": 13
+        },
+        "audit_rights": {
+          "name": "Audit Rights",
+          "risk": "low",
+          "precision": 1.0,
+          "recall": 0.8462,
+          "f1": 0.9167,
+          "tp": 11,
+          "fp": 0,
+          "fn": 2,
+          "support": 13
+        },
+        "non_solicitation": {
+          "name": "Non-Solicitation",
+          "risk": "low",
+          "precision": 1.0,
+          "recall": 0.7857,
+          "f1": 0.88,
+          "tp": 11,
+          "fp": 0,
+          "fn": 3,
+          "support": 14
+        }
+      },
+      "macro_precision": 0.9487,
+      "macro_recall": 0.7997,
+      "macro_f1": 0.8648,
+      "risk_weighted_f1": 0.8674,
+      "red_flag_precision": 1.0,
+      "red_flag_recall": 0.75,
+      "red_flag_f1": 0.8571,
+      "ece": 0.1057,
+      "total_tp": 160,
+      "total_fp": 10,
+      "total_fn": 39
+    },
+    "ensemble_v1": {
+      "per_clause": {
+        "limitation_of_liability": {
+          "name": "Limitation of Liability",
+          "risk": "high",
+          "precision": 1.0,
+          "recall": 0.8462,
+          "f1": 0.9167,
+          "tp": 11,
+          "fp": 0,
+          "fn": 2,
+          "support": 13
+        },
+        "indemnification": {
+          "name": "Indemnification",
+          "risk": "high",
+          "precision": 0.8571,
+          "recall": 0.9231,
+          "f1": 0.8889,
+          "tp": 12,
+          "fp": 2,
+          "fn": 1,
+          "support": 13
+        },
+        "ip_ownership": {
+          "name": "IP Ownership",
+          "risk": "high",
+          "precision": 0.8824,
+          "recall": 0.75,
+          "f1": 0.8108,
+          "tp": 15,
+          "fp": 2,
+          "fn": 5,
+          "support": 20
+        },
+        "data_privacy": {
+          "name": "Data Privacy & Security",
+          "risk": "high",
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "tp": 13,
+          "fp": 0,
+          "fn": 0,
+          "support": 13
+        },
+        "confidentiality": {
+          "name": "Confidentiality",
+          "risk": "high",
+          "precision": 0.85,
+          "recall": 0.85,
+          "f1": 0.85,
+          "tp": 17,
+          "fp": 3,
+          "fn": 3,
+          "support": 20
+        },
+        "auto_renewal": {
+          "name": "Auto-Renewal",
+          "risk": "medium",
+          "precision": 0.8571,
+          "recall": 0.8571,
+          "f1": 0.8571,
+          "tp": 6,
+          "fp": 1,
+          "fn": 1,
+          "support": 7
+        },
+        "termination": {
+          "name": "Termination",
+          "risk": "medium",
+          "precision": 1.0,
+          "recall": 0.9,
+          "f1": 0.9474,
+          "tp": 18,
+          "fp": 0,
+          "fn": 2,
+          "support": 20
+        },
+        "dispute_resolution": {
+          "name": "Dispute Resolution",
+          "risk": "medium",
+          "precision": 0.9231,
+          "recall": 0.9231,
+          "f1": 0.9231,
+          "tp": 12,
+          "fp": 1,
+          "fn": 1,
+          "support": 13
+        },
+        "price_change": {
+          "name": "Price Change",
+          "risk": "medium",
+          "precision": 1.0,
+          "recall": 0.7143,
+          "f1": 0.8333,
+          "tp": 5,
+          "fp": 0,
+          "fn": 2,
+          "support": 7
+        },
+        "assignment": {
+          "name": "Assignment",
+          "risk": "medium",
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "tp": 13,
+          "fp": 0,
+          "fn": 0,
+          "support": 13
+        },
+        "governing_law": {
+          "name": "Governing Law",
+          "risk": "low",
+          "precision": 1.0,
+          "recall": 0.95,
+          "f1": 0.9744,
+          "tp": 19,
+          "fp": 0,
+          "fn": 1,
+          "support": 20
+        },
+        "payment_terms": {
+          "name": "Payment Terms",
+          "risk": "low",
+          "precision": 0.9,
+          "recall": 0.6923,
+          "f1": 0.7826,
+          "tp": 9,
+          "fp": 1,
+          "fn": 4,
+          "support": 13
+        },
+        "audit_rights": {
+          "name": "Audit Rights",
+          "risk": "low",
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "tp": 13,
+          "fp": 0,
+          "fn": 0,
+          "support": 13
+        },
+        "non_solicitation": {
+          "name": "Non-Solicitation",
+          "risk": "low",
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "tp": 14,
+          "fp": 0,
+          "fn": 0,
+          "support": 14
+        }
+      },
+      "macro_precision": 0.9478,
+      "macro_recall": 0.8861,
+      "macro_f1": 0.9132,
+      "risk_weighted_f1": 0.9048,
+      "red_flag_precision": 1.0,
+      "red_flag_recall": 0.8367,
+      "red_flag_f1": 0.9111,
+      "ece": 0.0415,
+      "total_tp": 177,
+      "total_fp": 10,
+      "total_fn": 22
+    }
+  }
+}
