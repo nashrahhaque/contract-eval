@@ -37,4 +37,4 @@ streamlit run dashboard.py
 
 ## Design rationale
 
-Legal contract review has an asymmetric error cost: a **false negative** (missed high-risk clause) exposes a client to unreviewed legal risk. The risk-weighted F1 metric directly encodes this — high-risk clause errors (limitation of liability, indemnification, IP ownership, data privacy) are penalised 3× more than low-risk clause errors. This is the same principle that would drive labeling strategy and model iteration at Crosby.
+Legal contract review has an asymmetric error cost: a **false negative** (missed high-risk clause) exposes a client to unreviewed legal risk. The risk-weighted F1 metric directly encodes this: high-risk clause errors (limitation of liability, indemnification, IP ownership, data privacy) are penalised 3× more than low-risk clause errors. 
