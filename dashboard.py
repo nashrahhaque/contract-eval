@@ -230,4 +230,4 @@ elif page == "Error Analysis":
     st.dataframe(top_err, use_container_width=True, hide_index=True)
 
 st.markdown("---")
-st.markdown('<div style="text-align:center;color:#6b7280;font-size:0.78rem;">contract-eval · LLM evaluation framework for legal AI · Crosby AI application</div>', unsafe_allow_html=True)
+st.markdown('<div style="text-align:center;color:#6b7280;font-size:0.78rem;">contract-eval · LLM evaluation framework for legal AI</div>', unsafe_allow_html=True)
